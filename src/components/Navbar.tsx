@@ -1,11 +1,12 @@
 import * as React from 'react'
+import HcmKendoLogoWithText from '../assets/images/HcmKendoLogoWithText_white.png'
 
 export const NavBar = () => {
   return (
-    <div>
-      <header className="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e6eaf4] px-10 py-3">
+    <div className='text-white bg-black bg-opacity-50'>
+      <header className="flex items-center justify-between whitespace-nowrap px-10 py-3">
         <div className="flex items-center gap-4 text-[#0d111c]">
-          <div className="size-4">
+          {/* <div className="size-4">
             <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_6_330)">
                 <path
@@ -20,14 +21,21 @@ export const NavBar = () => {
               </defs>
             </svg>
           </div>
-          <h2 className="text-[#0d111c] text-lg font-bold leading-tight tracking-[-0.015em]">HCM Kendo Federation</h2>
+          <h2 className="text-[#0d111c] text-lg font-bold leading-tight tracking-[-0.015em]">HCM Kendo Federation</h2> */}
+          <img
+            src={HcmKendoLogoWithText}
+            alt="HCM Kendo Federation Logo"
+            width={80}
+            height={80}
+            // className="rounded-full"
+          />
         </div>
         <div className="flex flex-1 justify-end gap-8">
           <div className="flex items-center gap-9">
-            <a className="text-[#0d111c] text-sm font-medium leading-normal" href="#">Home</a>
-            <a className="text-[#0d111c] text-sm font-medium leading-normal" href="#">News</a>
-            <a className="text-[#0d111c] text-sm font-medium leading-normal" href="#">Clubs</a>
-            <a className="text-[#0d111c] text-sm font-medium leading-normal" href="#">Q&amp;A</a>
+            <a className="text-white text-sm font-medium leading-normal" href="#">Home</a>
+            <a className="text-white text-sm font-medium leading-normal" href="#">News</a>
+            <a className="text-white text-sm font-medium leading-normal" href="#">Clubs</a>
+            <a className="text-white text-sm font-medium leading-normal" href="#">Q&amp;A</a>
           </div>
           <div className="flex gap-2">
             <button
