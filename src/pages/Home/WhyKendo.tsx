@@ -112,7 +112,7 @@ export const WhyLearnKendo = () => {
 
   return (
     <div className="bg-white rounded-lg mb-10 relative"
-      style={{ boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.44)", top: "-10%"}}
+      style={{ boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.44)"}}
     >
       <div className="text-[#0d111c]tracking-[-0.015em] px-16 pb-3 pt-5 text-center">
         <h2 className="text-[#0d111c] text-[22px] font-bold leading-tight mb-2">Tại sao người ta lại tập Kiếm Đạo</h2>
