@@ -8,6 +8,7 @@ import { LatestNewsSection } from './LatestNewsSection'
 import { Gallery } from './Gallery'
 import { ExecutiveCommiteeMembers } from './ExecutiveCommiteeMembers'
 import { HomeQA } from './HomeQA'
+import image10 from '../../assets/images/homeGallery/image10.jpg'
 
 export const Home = () => {
   return (
@@ -35,7 +36,8 @@ export const Home = () => {
     <div className="relative flex size-full min-h-screen flex-col bg-[#f8f9fc] group/design-root overflow-x-hidden">  
       <div className="layout-container flex h-full grow flex-col">
         <div style={{
-          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.8) 100%), url("https://cdn.usegalileo.ai/sdxl10/c2f7de3a-4051-4929-9246-a01aa76e8492.png")'
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.8) 100%), url(${image10})`,
+          backgroundSize: 'cover',
         }}>
           <NavBar />
           <HomeHeader />
@@ -43,9 +45,10 @@ export const Home = () => {
         
 
         <div className="px-40 flex flex-1 justify-center py-5">
-          <div className="layout-content-container flex flex-col max-w-[960px] flex-1">
-            <WhyLearnKendo />
+          <div className="layout-content-container flex flex-col max-w-[980px] flex-1">
             <OurStory />
+            <WhyLearnKendo />
+            
             
             <KendoClubsList />
             <LatestNewsSection />

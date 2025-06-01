@@ -111,7 +111,7 @@ export const WhyLearnKendo = () => {
   )
 
   return (
-    <div className="bg-white rounded-lg mb-10 relative"
+    <div className="bg-white rounded-lg my-10 relative"
       style={{ boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.44)"}}
     >
       <div className="text-[#0d111c]tracking-[-0.015em] px-16 pb-3 pt-5 text-center">

@@ -69,23 +69,23 @@ export const Gallery = () => {
       <div className="gallery-column">
         <img src={image1} style={{width: '100%'}} />
         <img src={image2} style={{width: '100%'}} />
-        <img src={image9} style={{width: '100%', height: '300px'}} />
+        <img src={image9} style={{width: '100%', height: '332px'}} />
       </div>
       <div className="gallery-column">
         <img src={image3} style={{width: '100%'}} />
         <img src={image4} style={{width: '100%'}} />
         <img src={image10} style={{width: '100%'}} />
-        <img src={image13} style={{width: '100%', height: '171px'}} />
+        <img src={image13} style={{width: '100%', height: '201px'}} />
       </div>  
       <div className="gallery-column">
         <img src={image5} style={{width: '100%'}} />
         <img src={image6} style={{width: '100%'}} />
-        <img src={image11} style={{width: '100%', height: '128px'}} />
+        <img src={image11} style={{width: '100%'}} />
       </div>
       <div className="gallery-column">
       <img src={image7} style={{width: '100%'}} />
       <img src={image8} style={{width: '100%'}} />
-      <img src={image12} style={{width: '100%', height: '134px'}} />
+      <img src={image12} style={{width: '100%', height: '162px'}} />
       </div>
     </div>
   </div>
