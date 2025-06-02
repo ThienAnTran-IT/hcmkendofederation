@@ -9,7 +9,7 @@ export interface TabProps {
   path: string
 }
 
-export const NavBar: React.FC<{selectedTab: TabProps, className?: string}> = ({selectedTab, className}) => {
+export const NavBar: React.FC<{selectedTab: TabProps, className?: string, logo?: string}> = ({selectedTab, className, logo}) => {
   const [currentTab, setCurrentTab] = React.useState<TabProps>(selectedTab)
   
   return (
@@ -17,7 +17,7 @@ export const NavBar: React.FC<{selectedTab: TabProps, className?: string}> = ({s
       <header className="flex items-center justify-between whitespace-nowrap px-10 py-3">
         <div className="flex items-center gap-4 text-[#0d111c]">
           <img
-            src={HcmKendoLogoWithText}
+            src={logo ?? HcmKendoLogoWithText}
             alt="HCM Kendo Federation Logo"
             width={80}
             height={80}
@@ -29,7 +29,7 @@ export const NavBar: React.FC<{selectedTab: TabProps, className?: string}> = ({s
               Tabs.map((tab) => (
                 <a
                   key={tab.name}
-                  className={`text-white text-sm font-medium leading-normal ${currentTab.name === tab.name ? 'selected-tab' : ''}`}
+                  className={`text-sm font-medium leading-normal ${currentTab.name === tab.name ? 'selected-tab' : ''}`}
                   href={tab.path}
                   onClick={() => setCurrentTab(tab)}
                 >
