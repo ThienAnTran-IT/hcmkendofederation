@@ -10,7 +10,7 @@ export const Dojo: React.FC<{uid?: string}> = ({uid}) => {
       <div className="layout-container flex h-full grow flex-col">
         <div className='bg-white text-[#0d111c]'>
           <NavBar
-            selectedTab={Tabs[1]}
+            selectedTab={Tabs[2]}
             className='bg-[#47619e] text-white'
           />
         </div>

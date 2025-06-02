@@ -2,6 +2,7 @@ export interface ClubInfo {
   name: string
   location: string
   image: string
+  url?: string
 }
 
 export interface NewsItemSummary {
