@@ -121,7 +121,7 @@ export const WhyLearnKendo = () => {
             <span className="icon-[tabler--crown] size-5" />
           </span>
         </div>
-        <p className="text-[#47619e]">Kiếm đạo (Kendo) có ưu điểm gì mà lại khiến nhiều người yêu thích và có mong muốn tham gia học bộ môn võ thuật này đến vậy? Không chỉ ở Nhật Bản mà Kiếm đọa (Kendo) còn lan rộng ra toàn thế giới? Không phải tự nhiên mà Kendo lại trở nên phổ biến</p>
+        <p className="text-[#0d111c]">Kiếm đạo (Kendo) có ưu điểm gì mà lại khiến nhiều người yêu thích và có mong muốn tham gia học bộ môn võ thuật này đến vậy? Không chỉ ở Nhật Bản mà Kiếm đọa (Kendo) còn lan rộng ra toàn thế giới? Không phải tự nhiên mà Kendo lại trở nên phổ biến</p>
       </div>
      
       <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">

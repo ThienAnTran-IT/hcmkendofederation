@@ -39,7 +39,7 @@ const questionAnswers: QAInterface[] = [
 export const HomeQA = () => {
   const renderQAItem = (question: string, answer: string) => (
     <div className='px-4 py-2'>
-      <div className="flex items-center gap-4 bg-[#f8f9fc] min-h-[60px]">
+      <div className="flex items-center gap-4 bg-[#f8f9fc] min-h-[50px]">
         <div className="text-[#0d111c] flex items-center justify-center rounded-lg bg-[#e6eaf4] shrink-0 size-8" data-icon="Question" data-size="24px" data-weight="regular">
           <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
             <path

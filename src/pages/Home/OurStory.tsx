@@ -1,3 +1,4 @@
+import image15 from '../../assets/images/homeGallery/image15.svg'
 
 export const OurStory = () => {
   return (
@@ -8,7 +9,7 @@ export const OurStory = () => {
           <div
             className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
             // styles='background-image: url("https://cdn.usegalileo.ai/sdxl10/7f9faafc-6891-405f-9320-c1fdb3969978.png");'
-            style={{ backgroundImage: 'url("https://cdn.usegalileo.ai/sdxl10/7f9faafc-6891-405f-9320-c1fdb3969978.png")' }}
+            style={{ backgroundImage: `url(${image15})` }}
           ></div>
         </div>
       </div>

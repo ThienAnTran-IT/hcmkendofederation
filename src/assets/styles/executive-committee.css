@@ -36,8 +36,8 @@ h2 {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
   scroll-snap-align: start;
   transition: all 0.2s;
-  height: fit-content;
-  width: 265px;;
+  height: 300px;
+  width: 250px;;
 }
 
 .card:hover {
