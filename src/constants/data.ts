@@ -32,17 +32,14 @@ export const newsItemDetail: NewsItemDetail[] = [
     uid: "3e966d44-84a7-4965-bf89-5beb81bfb0e6",
     title: `Giải vô địch kiếm đạo Quốc tế TP. Hồ Chí Minh năm 2025 – Cúp VOKCs \nHo Chi Minh City International Kendo Tournament 2025 – VOKCs Cup`,
     content: `
-Kính gửi Câu lạc bộ Kiếm đạo Đại Đạo (Daido Kendo Club),
-_Dear Daido Kendo Club,_
-
-Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh xin gửi đến quý câu lạc bộ lời chào trân trọng.
-_Ho Chi Minh City Kendo Federation extends its warmest greetings to your distinguished club._
+**THÔNG BÁO GIẢI KIẾM ĐẠO QUỐC TẾ TP. HỒ CHÍ MINH NĂM 2025 - CÚP VOKCS**
+**_HO CHI MINH CITY INTERNATIONAL KENDO TOURNAMENT 2025 – VOKCS CUP_**
 
 Giải Vô địch Kiếm đạo Việt Nam mở rộng (Vietnam Open Kendo Championships - VOKCs) đã trở thành giải thi đấu quốc tế truyền thống và uy tín do Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh tổ chức từ năm 2014 đến nay. Với thành công đó, Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh quyết định nâng tầm giải đấu thành một giải đấu quốc tế.
 _Vietnam Open Kendo Championships (VOKCs) has become a traditional and reputable international tournament organized by Ho Chi Minh City Kendo Federation since 2014 till date. Building on this success, Ho Chi Minh City Kendo Federation has decided to elevate the event to an international tournament._
 
-Bằng thư này, Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh trân trọng kính mời các thành viên của quý Câu lạc bộ tham dự “Giải vô địch kiếm đạo Quốc tế TP. Hồ Chí Minh năm 2025 – Cúp VOKCs” với các thông tin như sau:
-_By this letter, Ho Chi Minh City Kendo Federation would like to respectfully invite members of your esteemed Club to join “Ho Chi Minh City International Kendo Tournament 2025 – VOKCs Cup” with the details as follows:_
+Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh thông báo “Giải vô địch kiếm đạo Quốc tế TP. Hồ Chí Minh năm 2025 – Cúp VOKCs” với các thông tin như sau:
+_Ho Chi Minh City Kendo Federation would like to announce “Ho Chi Minh City International Kendo Tournament 2025 – VOKCs Cup” with the details as follows:_
 
 1.&nbsp;Tên giải đấu: “Giải vô địch kiếm đạo Quốc tế TP. Hồ Chí Minh năm 2025 – Cúp VOKCs”.\ 
 &nbsp;&nbsp;&nbsp;&nbsp;_Competition name: "Ho Chi Minh City International Kendo Tournament 2025 – VOKCs Cup"._
@@ -163,7 +160,7 @@ _By this letter, Ho Chi Minh City Kendo Federation would like to respectfully in
 
 
 **7.&nbsp;Khen thưởng**\ 
-&nbsp;&nbsp;&nbsp;&nbsp;**__Prizes_**
+&nbsp;&nbsp;&nbsp;&nbsp;**_Prizes_**
 
 &nbsp;&nbsp;a. Các nội dung cá nhân:\ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Prizes for men/women’s singles:_
@@ -258,8 +255,11 @@ _In case your esteemed kendo practitioners need any further information or assis
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     _Email: **<u>tung.tran@hcmkendo.org.vn</u>** or **<u>admin@kcmkendo.org.vn</u>**_
 
 
-Trân trọng\ 
-_Yours respectfully_`,
+Trân trọng
+_Yours respectfully_
+
+LIÊN ĐOÀN KIẾM ĐẠO THÀNH PHỐ HỒ CHÍ MINH
+_HO CHI MINH CITY KENDO FEDERATION_`,
     date: "June 1, 2025",
     attachmentLinks: [
       {name: "HKF - Charter HIK 2025 (VOKs Cup) B", url: "https://drive.google.com/file/d/1q1goaZC3hwA4TVTTRduwp2B4wTS2qh1k/view?usp=drive_link"},

@@ -1,4 +1,4 @@
-import HcmKendoLogoWithText_white from '../assets/images/HcmKendoLogoWithText_white.svg'
+import HcmKendoLogoWithText_white from '../assets/images/HcmKendoLogoWithText_white.png'
 
 export const Footer = () => {
   return (
@@ -6,7 +6,11 @@ export const Footer = () => {
       <div className="px-5 py-10 max-w-[980px] w-full">
         <div className="flex flex-row gap-6">
           <div className="basis-1/3 items-center justify-center">
-            <img src={HcmKendoLogoWithText_white} alt="HCM Kendo Federation Logo" className="mx-auto mb-4" style={{ height: '140px' }} />
+            <img
+              src={HcmKendoLogoWithText_white} alt="HCM Kendo Federation Logo"
+              className="mx-auto mb-4" style={{ height: '140px' }}
+              loading="lazy"
+            />
           </div>
           <div className="basis-2/3">
             <h3 className="text-white text-base font-bold leading-normal">

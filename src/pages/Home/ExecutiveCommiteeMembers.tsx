@@ -3,7 +3,7 @@ import LyDaiNghia from '../../assets/images/executiveMemberAvatars/LyDaiNghia.sv
 import NguyenDuyHan from '../../assets/images/executiveMemberAvatars/NguyenDuyHan.svg'
 import NguyenTrongDuc from '../../assets/images/executiveMemberAvatars/NguyenTrongDuc.svg'
 import PhanDuyMinh from '../../assets/images/executiveMemberAvatars/PhanDuyMinh.svg'
-import PhanMinhTuan from '../../assets/images/executiveMemberAvatars/PhanMinhTuan.svg'
+import PhanMinhTuan from '../../assets/images/executiveMemberAvatars/PhanMinhTuan.jpg'
 import NguyenSyHiep from '../../assets/images/executiveMemberAvatars/NguyenSyHiep.svg'
 import QuachTrongNghia from '../../assets/images/executiveMemberAvatars/QuachTrongNghia.svg'
 import TranThanhTung from '../../assets/images/executiveMemberAvatars/TranThanhTung.svg'
@@ -91,7 +91,7 @@ const ExecutiveMembers: MemberCardProps[] = [
 
 export const MemberCard = ({ name, position, image }: MemberCardProps) => (
   <>
-  <img className='card-avatar' src={image} alt="" width={120} height={120} />
+  <img className='card-avatar' src={image} alt="" width={120} height={120} loading="lazy" />
    <div className="card-section">
     <div>
       <div className="card-columns">
