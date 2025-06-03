@@ -101,7 +101,11 @@ export const KendoClubsList = () => {
       <div
         className="bg-center bg-no-repeat aspect-video bg-cover rounded-lg h-14 w-fit"
       >
-        <img src={club.image} alt="Vovinam Kendo Club" className="h-full w-full object-cover rounded-lg" />
+        <img
+          src={club.image} alt={club.name}
+          loading="lazy"
+          className="h-full w-full object-cover rounded-lg"
+        />
       </div>
       <div className="flex flex-col justify-center">
         <p className="text-[#0d111c] text-base font-medium leading-normal">{club.name}</p>

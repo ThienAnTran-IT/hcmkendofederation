@@ -91,7 +91,7 @@ const ExecutiveMembers: MemberCardProps[] = [
 
 export const MemberCard = ({ name, position, image }: MemberCardProps) => (
   <>
-  <img className='card-avatar' src={image} alt="" width={120} height={120} />
+  <img className='card-avatar' src={image} alt="" width={120} height={120} loading="lazy" />
    <div className="card-section">
     <div>
       <div className="card-columns">
