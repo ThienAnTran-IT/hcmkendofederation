@@ -1,0 +1,156 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 1em;
+}
+
+.cards {
+  display: grid;
+  grid-auto-columns: 100%;
+  grid-column-gap: 0px;
+  grid-auto-flow: column;
+  padding: 20px 0px;
+  list-style: none;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
+  scroll-snap-align: start;
+  transition: all 0.2s;
+  height: 300px;
+  width: 250px;;
+}
+
+.card:hover {
+  color: var(--white);
+  background: var(--orange);
+}
+
+
+.cards::-webkit-scrollbar-thumb,
+.cards::-webkit-scrollbar-track {
+  border-radius: 92px;
+}
+
+.cards::-webkit-scrollbar-thumb {
+  background: var(--darkorange);
+}
+
+.cards::-webkit-scrollbar-track {
+  background: var(--thumb);
+}
+
+@media (min-width: 500px) {
+  .cards {
+    grid-auto-columns: calc(50% - 10px);
+    grid-column-gap: 50px;
+  }
+}
+
+@media (min-width: 700px) {
+  .cards {
+    grid-auto-columns: calc(calc(100% / 3) - 20px);
+    grid-column-gap: 60px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .cards {
+    grid-auto-columns: calc(25% - 30px);
+    grid-column-gap: 70px;
+  }
+}
+
+
+/* FOOTER STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-footer {
+  position: fixed;
+  right: 0;
+  bottom: 50px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  z-index: 1;
+}
+
+.page-footer a {
+  display: flex;
+  margin-left: 4px;
+}
+
+
+
+.card-columns {
+  margin-top: 0;
+}
+
+.card-section {
+  position: relative;
+  .single-card {
+    border-radius: 6px;
+    overflow:hidden;
+    max-width: 300px;
+    margin: 0 auto;
+    .single-card-body {
+      .user-meta {
+        padding-top: 20px;
+        .username {
+          font-size: 18px;
+          font-weight: 600;
+        }
+        .position {
+          font-size: 90%;
+        }
+      }
+    }
+    .user-bio {
+      padding-top: 8px;
+      font-size: 92%;
+    }
+    .action {
+      padding-top: 20px;
+      .button {
+        padding: 16px 20px 16px 20px;
+        color: white;
+        border-radius: 100px;
+        transition: opacity .3s;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}
+
+.card-avatar {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+  /* position: relative;
+  top: -75px; */
+  border: 4px solid white;
+}
