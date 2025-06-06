@@ -3,7 +3,7 @@ import HcmKendoLogoWithText_white from '../assets/images/HcmKendoLogoWithText_wh
 export const Footer = () => {
   return (
     <footer className="bg-[#47619e] text-white flex justify-center">
-      <div className="px-5 py-10 max-w-[980px] w-full">
+      <div className="px-5 py-10 max-w-[1200px] w-full">
         <div className="flex flex-row gap-6">
           <div className="basis-1/3 items-center justify-center">
             <img
