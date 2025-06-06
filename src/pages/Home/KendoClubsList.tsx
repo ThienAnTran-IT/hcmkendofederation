@@ -11,6 +11,7 @@ import SaigonJukenjaiLogo from "../../assets/images/logoOfClubs/SaigonJukenjaiLo
 import KendoBinhDuongLogo from "../../assets/images/logoOfClubs/KendoBinhDuongLogo.svg"
 import HanoiKendoLogo from "../../assets/images/logoOfClubs/HanoiKendoLogo.svg"
 import SaganLogo from "../../assets/images/logoOfClubs/SaganLogo.svg"
+import UTEKendoClubLogo from "../../assets/images/logoOfClubs/UTEKendoClubLogo.jpg"
 
 
 const KendoClubs: ClubInfo[] = [
@@ -86,6 +87,12 @@ const KendoClubs: ClubInfo[] = [
     location: "Hiệp hội có nhiều địa điểm luyện tập tại Hà Nội, xin truy cập trang của Hiệp hội để biết thêm chi tiết.",
     image: HanoiKendoLogo,
     url: "https://www.facebook.com/hanoi.kendo.association"
+  },
+  {
+    name: "Câu lạc bộ Kiếm đạo Trường ĐH Sư phạm Kỹ thuật (UTE Kendo Club) ",
+    location: "1 Võ Văn Ngân Phường Linh Chiểu, TP Ho Chi Minh City",
+    image: UTEKendoClubLogo,
+    url: "https://www.facebook.com/people/CLB-Ki%E1%BA%BFm-%C4%91%E1%BA%A1o-Tr%C6%B0%E1%BB%9Dng-%C4%90H-SPKT/61560455006741/"
   }
 ]
 

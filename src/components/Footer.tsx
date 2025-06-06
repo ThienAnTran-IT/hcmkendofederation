@@ -3,7 +3,7 @@ import HcmKendoLogoWithText_white from '../assets/images/HcmKendoLogoWithText_wh
 export const Footer = () => {
   return (
     <footer className="bg-[#47619e] text-white flex justify-center">
-      <div className="px-5 py-10 max-w-[980px] w-full">
+      <div className="px-5 py-10 max-w-[1200px] w-full">
         <div className="flex flex-row gap-6">
           <div className="basis-1/3 items-center justify-center">
             <img
@@ -14,7 +14,7 @@ export const Footer = () => {
           </div>
           <div className="basis-2/3">
             <h3 className="text-white text-base font-bold leading-normal">
-              KENDO FEDERATION - LIÊN ĐOÀN KIẾM ĐẠO TP. HỒ CHÍ MINH
+            HO CHI MINH CITY KENDO FEDERATION - LIÊN ĐOÀN KIẾM ĐẠO TP. HỒ CHÍ MINH
             </h3>
             <div className="flex gap-2.5 items-baseline">
               <svg
@@ -28,7 +28,7 @@ export const Footer = () => {
                   d="m16 9.5l-3-3V2h-2v2.5l-3-3l-8 8v.5h2v5h5v-3h2v3h5v-5h2z"
                 ></path>
               </svg>
-              <p>Address: 725/14, Trường Chinh, Tây Thạnh, Tân Phú, Tp. HCM</p>
+              <p>Address: 725/14 Trường Chinh, Tây Thạnh, Tân Phú, Ho Chi Minh City, Vietnam</p>
             </div>
             <div className="flex gap-2.5 items-baseline">
               <svg
@@ -42,7 +42,7 @@ export const Footer = () => {
                   d="M11 10c-1 1-1 2-2 2s-2-1-3-2s-2-2-2-3s1-1 2-2s-2-4-3-4s-3 3-3 3c0 2 2.055 6.055 4 8s6 4 8 4c0 0 3-2 3-3s-3-4-4-3"
                 ></path>
               </svg>
-              <p>Hotline: (+84) 903 029 259 - (+84) 966 111 471</p>
+              <p>Hotline: 090 317 03 17</p>
             </div>
             <div className="flex gap-2.5 items-baseline">
               <svg
@@ -102,7 +102,7 @@ export const Footer = () => {
         </div>
         <div className="mt-10 mx-28 border-t border-white divide-slate-50 opacity-30">
           <p className="text-center text-base text-sm leading-normal pt-5">
-            Copyright © 2022 HCM Kendo Federation
+            Copyright © 2022 HCMC Kendo Federation
           </p>
         </div>
       </div>
