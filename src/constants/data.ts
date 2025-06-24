@@ -7,7 +7,7 @@ import image13 from '../assets/images//homeGallery/image13.jpg'
 export const newsItemHome: NewsItemSummary[] = [
   {
     uid: "4",
-    title: `Quy chế thi thăng cấp và đẳng, công nhận cấp và đẳng của Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh`,
+    title: `Quy chế thi thăng cấp và đẳng, công nhận cấp và đẳng`,
     summary: 'Quy chế thi thăng cấp và đẳng, công nhận cấp và đẳng của Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh',
     link: "https://drive.google.com/file/d/1uei0gVrkoAYZl5dT2wRLGwjvnd9vun6X/view?usp=drive_link",
     image: image13
