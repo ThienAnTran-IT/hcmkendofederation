@@ -2,8 +2,16 @@ import { NewsItemDetail, NewsItemSummary } from "../types/types"
 import news_6th_championship from '../assets/images/news/news_6th_championships.jpg'
 import news_kata_training from '../assets/images/news/news_kata_training.jpg'
 import image14 from '../assets/images//homeGallery/image14.svg'
+import image13 from '../assets/images//homeGallery/image13.jpg'
 
 export const newsItemHome: NewsItemSummary[] = [
+  {
+    uid: "4",
+    title: `Quy chế thi thăng cấp và đẳng, công nhận cấp và đẳng`,
+    summary: 'Quy chế thi thăng cấp và đẳng, công nhận cấp và đẳng của Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh',
+    link: "https://drive.google.com/file/d/1uei0gVrkoAYZl5dT2wRLGwjvnd9vun6X/view?usp=drive_link",
+    image: image13
+  },
   {
     uid: "3e966d44-84a7-4965-bf89-5beb81bfb0e6",
     title: `Giải vô địch kiếm đạo Quốc tế TP. Hồ Chí Minh năm 2025 – Cúp VOKCs\ nHo Chi Minh City International Kendo Tournament 2025 – VOKCs Cup`,

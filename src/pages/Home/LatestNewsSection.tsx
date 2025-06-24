@@ -15,7 +15,7 @@ export const LatestNewsSection = () => (
             <div>
               <p className="text-[#0d111c] text-base font-medium leading-normal whitespace-pre-wrap">{newsItem.title}</p>
               <p className="text-[#47619e] text-sm font-normal leading-normal">{newsItem.summary}</p>
-              <a className="after:bg-[#47619e] hover:underline cursor-pointer" href={newsItem.link} target="_blank">
+              <a className="after:bg-[#47619e] hover:underline cursor-pointer" href={newsItem.link} target="_blank" rel="noreferrer">
                 Xem thêm
               </a>
             </div>
