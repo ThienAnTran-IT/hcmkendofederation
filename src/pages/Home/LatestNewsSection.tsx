@@ -1,12 +1,16 @@
 
 import { newsItemHome } from '../../constants/data'
 
+const MAX_NEWS_ITEMS_IN_HOME = 4
+
+const latestNews = newsItemHome.slice(0, MAX_NEWS_ITEMS_IN_HOME - 1)
+
 export const LatestNewsSection = () => (
   <div>
     <h2 className="text-[#0d111c] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Latest News</h2>
     <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
       {
-        newsItemHome.map((newsItem) => (
+        latestNews.map((newsItem) => (
           <div className="flex flex-col gap-3 pb-3">
             <div
               className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
