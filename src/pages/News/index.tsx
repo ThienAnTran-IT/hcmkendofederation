@@ -4,7 +4,7 @@ import remarkGfm from 'remark-gfm'
 import rehypeRaw from 'rehype-raw'
 import { NavBar } from '../../components/Navbar'
 import { Tabs } from '../../constants/constants'
-import { LatestNewsSection } from '../Home/LatestNewsSection'
+import { NewsList } from './NewsList'
 import { newsItemDetail } from '../../constants/data'
 import { Footer } from '../../components/Footer'
 
@@ -59,7 +59,7 @@ export const News: React.FC<{uid?: string}> = ({uid}) => {
 
         <div className="px-40 flex flex-1 justify-center py-5">
           <div className="layout-content-container flex flex-col max-w-[980px] flex-1">
-            {uid ? renderNewsItemDetails() : <LatestNewsSection />}
+            {uid ? renderNewsItemDetails() : <NewsList />}
           </div>
         </div>
         

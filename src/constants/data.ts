@@ -3,8 +3,16 @@ import news_6th_championship from '../assets/images/news/news_6th_championships.
 import news_kata_training from '../assets/images/news/news_kata_training.jpg'
 import image14 from '../assets/images//homeGallery/image14.svg'
 import image13 from '../assets/images//homeGallery/image13.jpg'
+import VOKCs_2025 from '../assets/images/news/VOKCs_2025.jpg'
 
 export const newsItemHome: NewsItemSummary[] = [
+  {
+    uid: "599f12eb-89a4-41a8-870b-efe37c395ffa",
+    title: `Giải Kiếm đạo Quốc tế Thành phố Hồ Chí Minh năm 2025 - Cúp Chiến Thắng \nHo Chi Minh City International Kendo Tournament 2025 – Victory Cup`,
+    summary: 'Thông tin mới nhất về Giải Kiếm đạo Quốc tế Thành phố Hồ Chí Minh năm 2025 - Cúp Chiến Thắng',
+    link: "/news/599f12eb-89a4-41a8-870b-efe37c395ffa",
+    image: VOKCs_2025
+  },
   {
     uid: "4",
     title: `Quy chế thi thăng cấp và đẳng, công nhận cấp và đẳng`,
@@ -274,5 +282,14 @@ _HO CHI MINH CITY KENDO FEDERATION_`,
       {name: "VOKCs Application EV", url: "https://docs.google.com/document/d/1IsUxDVoWqEqlKaGjaptgCD_vWHQQUIwH/edit?usp=drive_link&ouid=113280824326192510471&rtpof=true&sd=true"}
     ],
     image: image14
+  },
+  {
+    uid: "599f12eb-89a4-41a8-870b-efe37c395ffa",
+    title: `Giải Kiếm đạo Quốc tế Thành phố Hồ Chí Minh năm 2025 - Cúp Chiến Thắng \nHo Chi Minh City International Kendo Tournament 2025 – Victory Cup`,
+    content: 'Ngày 25/06/2025, Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh đã nhận được Công văn số 939/TDTTVN-TTTC của Cục Thể dục Thể thao Việt Nam, Bộ Văn Hóa Thể thao và Du lịch về việc tổ chức Giải Kiếm đạo Quốc tế Thành phố Hồ Chí Minh, theo đó, Cục Thể dục Thể thao Việt Nam đồng ý cho Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh tổ chức Giải Kiếm đạo Quốc tế Thành phố Hồ Chí Minh năm 2025.\n\nNhân dịp 50 năm ngày thống nhất đất nước, Giải Kiếm đạo Quốc tế Thành phố Hồ Chí Minh năm 2025 sẽ có tên riêng là “Giải Kiếm đạo Quốc tế Thành phố Hồ Chí Minh năm 2025 - Cúp Chiến Thắng).  Đây là giải đấu trong khuôn khổ hệ thống giải đấu quốc tế “Vietnam Open Kendo Championships” (VKOCs) đã được Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh tổ chức từ năm 2014 đến nay.\n\nGiải dự kiến quy tụ hơn 200 vận động viên và huấn luyện viên đến từ quốc gia và vùng lãnh thổ: Việt Nam, Hàn Quốc, Nhật Bản, Trung Quốc, Liên bang Nga, Philippines, Cambodia, Nam Phi, Đài Loan.\n\nSẵn sàng cho Giải Kiếm đạo Quốc tế Thành phố Hồ Chí Minh năm 2025!\n\n_______________\n\nOn June 25, 2025, Ho Chi Minh City Kendo Federation officially received Official Letter No. 939/TDTTVN-TTTC from Vietnam Sports Administration under the Ministry of Culture, Sports and Tourism regarding the organization of the Ho Chi Minh City International Kendo Tournament. Accordingly, Vietnam Sports Administration has approved for Ho Chi Minh City Kendo Federation to organize Ho Chi Minh City International Kendo Tournament 2025.\n\nOn the occasion of the 50th anniversary of national reunification, the tournament will bear the special title: "Ho Chi Minh City International Kendo Tournament 2025 – Victory Cup."\n\nThis event is part of the international competition system known as  Vietnam Open Kendo Championships (VKOCs), which has been organized by Ho Chi Minh City Kendo Federation since 2014.\n\nThe tournament is expected to attract over 200 athletes and coaches from various countries and territories, including Vietnam, South Korea, Japan, China, the Russian Federation, the Philippines, Cambodia, South Africa, and Taiwan.\n\nGet ready for Ho Chi Minh City International Kendo Tournament 2025!',
+    date: "June 26, 2025",
+    attachmentLinks: [],
+    image: VOKCs_2025
   }
 ]
+
