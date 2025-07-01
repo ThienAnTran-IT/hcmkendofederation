@@ -12,7 +12,7 @@ import KendoBinhDuongLogo from "../../assets/images/logoOfClubs/KendoBinhDuongLo
 import HanoiKendoLogo from "../../assets/images/logoOfClubs/HanoiKendoLogo.svg"
 import SaganLogo from "../../assets/images/logoOfClubs/SaganLogo.svg"
 import UTEKendoClubLogo from "../../assets/images/logoOfClubs/UTEKendoClubLogo.jpg"
-
+import { InfoCard } from "../../components/InfoCard"
 
 const KendoClubs: ClubInfo[] = [
   {
@@ -97,30 +97,6 @@ const KendoClubs: ClubInfo[] = [
 ]
 
 export const KendoClubsList = () => {
-  const renderKendoClubInfo = (club: ClubInfo) => (
-    <a
-      className="flex items-center gap-4 bg-[#f8f9fc] px-4 py-3 hover:bg-[#e0e4f0] transition-colors duration-200 ease-in-out rounded-lg cursor-pointer"
-      key={club.name}
-      href={club.url || "#"}
-      target="_blank"
-      rel="noreferrer"
-    >
-      <div
-        className="bg-center bg-no-repeat aspect-video bg-cover rounded-lg h-14 w-fit"
-      >
-        <img
-          src={club.image} alt={club.name}
-          loading="lazy"
-          className="h-full w-full object-cover rounded-lg"
-        />
-      </div>
-      <div className="flex flex-col justify-center">
-        <p className="text-[#0d111c] text-base font-medium leading-normal">{club.name}</p>
-        <p className="text-[#47619e] text-sm font-normal leading-normal whitespace-pre-wrap">{club.location}</p>
-      </div>
-    </a>
-  )
-
   return (
     <div>
       <div className="leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
@@ -129,7 +105,15 @@ export const KendoClubsList = () => {
       </div>
 
       {KendoClubs.map((club) => (
-        renderKendoClubInfo(club)
+        <div key={club.name}>
+          <InfoCard
+            title={club.name}
+            subtitle={club.location}
+            image={club.image}
+            link={club.url}
+          />
+        </div>
+
       ))}
     </div>
   )

@@ -9,8 +9,8 @@ export interface NewsItemSummary {
   uid: string
   title: string
   summary: string
+  image: string
   link?: string
-  image?: string
 }
 
 interface AttachmentLink {
