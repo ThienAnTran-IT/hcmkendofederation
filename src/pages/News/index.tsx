@@ -27,6 +27,15 @@ export const News: React.FC<{uid?: string}> = ({uid}) => {
             {news.content}
           </ReactMarkdown>
         </p>
+        {news.additionalImages && news.additionalImages.length > 0 && (
+          <div className="px-4 pb-3 pt-5 mt-5 divide-y divide-dashed">
+            <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3">
+              {news.additionalImages.map((image, index) => (
+                <img alt={`${news.uid}_${index}`} key={index} className="bg-center bg-no-repeat" src={image} />
+              ))}
+            </div>
+          </div>
+        )}
         {news.attachmentLinks && news.attachmentLinks.length > 0 && (
           <div className="px-4 pb-3 pt-5 mt-5 divide-y divide-dashed">
             <h2 className="text-[#0d111c] text-[18px] font-bold mb-2">Attachments</h2>

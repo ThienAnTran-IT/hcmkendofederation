@@ -4,40 +4,58 @@ import news_kata_training from '../assets/images/news/news_kata_training.jpg'
 import image14 from '../assets/images//homeGallery/image14.svg'
 import image13 from '../assets/images//homeGallery/image13.jpg'
 import VOKCs_2025 from '../assets/images/news/VOKCs_2025.jpg'
+import news_20250701 from '../assets/images/news/news_20250701.jpg'
+import news_20250701_2 from '../assets/images/news/news_20250701_2.jpg'
+
+const DIVIDER_STRING ='\n\n_______________\n\n'
 
 export const newsItemHome: NewsItemSummary[] = [
   {
+    uid: "4387a58f-b1e5-45a7-8b20-6987f6be8c0d",
+    title: 'CHẤP THUẬN CHÍNH THỨC CHO GIẢI KIẾM ĐẠO QUỐC TẾ THÀNH PHỐ HỒ CHÍ MINH NĂM 2025\nOFFICIALLY APPROVAL FOR HO CHI MINH CITY INTERNATIONAL KENDO TOURNAMENT 2025',
+    //summary: 'Ngày 27/06/2025, Ủy ban Nhân dân Thành phố Hồ Chí Minh đã chính thức chấp thuận cho Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh tổ chức Giải Kiếm đạo Quốc tế Thành phố Hồ Chí Minh năm 2025.',
+    link: "/news/4387a58f-b1e5-45a7-8b20-6987f6be8c0d",
+    image: VOKCs_2025
+  },
+  {
+    uid: "e3331b50-8b6d-41e5-aedb-d2b94b1a8042",
+    title: `LIÊN ĐOÀN KIẾM ĐẠO THÀNH PHỐ HỒ CHÍ MINH BỔ NHIỆM CHÁNH VĂN PHÒNG`,
+    //summary: 'Ban Chấp Hành Liên đoàn Kiếm đạo TPHCM đã công bố quyết định bổ nhiệm Thạc sỹ Nguyễn Minh Trung vào chức vụ Chánh Văn phòng Liên đoàn Kiếm đạo TPHCM',
+    link: "/news/e3331b50-8b6d-41e5-aedb-d2b94b1a8042",
+    image: news_20250701
+  },
+  {
     uid: "599f12eb-89a4-41a8-870b-efe37c395ffa",
     title: `Giải Kiếm đạo Quốc tế Thành phố Hồ Chí Minh năm 2025 - Cúp Chiến Thắng \nHo Chi Minh City International Kendo Tournament 2025 – Victory Cup`,
-    summary: 'Thông tin mới nhất về Giải Kiếm đạo Quốc tế Thành phố Hồ Chí Minh năm 2025 - Cúp Chiến Thắng',
+    // summary: 'Thông tin mới nhất về Giải Kiếm đạo Quốc tế Thành phố Hồ Chí Minh năm 2025 - Cúp Chiến Thắng',
     link: "/news/599f12eb-89a4-41a8-870b-efe37c395ffa",
     image: VOKCs_2025
   },
   {
     uid: "4",
     title: `Quy chế thi thăng cấp và đẳng, công nhận cấp và đẳng`,
-    summary: 'Quy chế thi thăng cấp và đẳng, công nhận cấp và đẳng của Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh',
+    // summary: 'Quy chế thi thăng cấp và đẳng, công nhận cấp và đẳng của Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh',
     link: "https://drive.google.com/file/d/1uei0gVrkoAYZl5dT2wRLGwjvnd9vun6X/view?usp=drive_link",
     image: image13
   },
   {
     uid: "3e966d44-84a7-4965-bf89-5beb81bfb0e6",
     title: `Giải vô địch kiếm đạo Quốc tế TP. Hồ Chí Minh năm 2025 – Cúp VOKCs\ nHo Chi Minh City International Kendo Tournament 2025 – VOKCs Cup`,
-    summary: 'Thư mời tham dự “Giải vô địch kiếm đạo Quốc tế TP. Hồ Chí Minh năm 2025 – Cúp VOKCs”/Invitation for “Ho Chi Minh City International Kendo Tournament 2025 – VOKCs Cup"',
+    // summary: 'Thư mời tham dự “Giải vô địch kiếm đạo Quốc tế TP. Hồ Chí Minh năm 2025 – Cúp VOKCs”/Invitation for “Ho Chi Minh City International Kendo Tournament 2025 – VOKCs Cup"',
     link: `/news/3e966d44-84a7-4965-bf89-5beb81bfb0e6`,
     image: "https://cdn.usegalileo.ai/sdxl10/63edc027-361c-4e76-a5d6-d466de44b41b.png"
   },
   {
     uid: "2",
     title: "Chương trình bồi dưỡng về Kendo Kata & Shinai Kendo Waza",
-    summary: "Chương trình bồi dưỡng về Kendo Kata & Shinai Kendo Waza sẽ được tổ chức tại TP. Hồ Chí Minh vào ngày 10 tháng 1 năm 2024.",
+    // summary: "Chương trình bồi dưỡng về Kendo Kata & Shinai Kendo Waza sẽ được tổ chức tại TP. Hồ Chí Minh vào ngày 10 tháng 1 năm 2024.",
     link: "https://www.facebook.com/hochiminhcitykendofederation/posts/pfbid035JHfGR8GXivimPNjWwBTnzwZA2Zm1hKikDwd96CFWeXAXPc5QFukbFcVtaEYYyjYl",
     image: news_kata_training
   },
   {
     uid: "3",
     title: "Thông báo về Giải Vô địch Kiếm đạo Việt Nam Mở rộng lần thứ 6",
-    summary: "Giải Vô địch Kiếm đạo Việt Nam Mở rộng lần thứ 6 sẽ diễn ra tại TP. Hồ Chí Minh vào ngày 5 tháng 2 năm 2024.",
+    // summary: "Giải Vô địch Kiếm đạo Việt Nam Mở rộng lần thứ 6 sẽ diễn ra tại TP. Hồ Chí Minh vào ngày 5 tháng 2 năm 2024.",
     link: "https://www.facebook.com/story.php?story_fbid=pfbid032MgFY6V5xyWcLiu5kCUH9fE1hC8TpMKj3v9vv4FWMRiEk3TBGZJe9rXxos5eHaxQl&id=100049786183240&mibextid=Nif5oz&_rdr",
     image: news_6th_championship
   }
@@ -290,6 +308,36 @@ _HO CHI MINH CITY KENDO FEDERATION_`,
     date: "June 26, 2025",
     attachmentLinks: [],
     image: VOKCs_2025
+  },
+  {
+    uid: "e3331b50-8b6d-41e5-aedb-d2b94b1a8042",
+    title: `LIÊN ĐOÀN KIẾM ĐẠO THÀNH PHỐ HỒ CHÍ MINH BỔ NHIỆM CHÁNH VĂN PHÒNG`,
+    content: 'Chiều ngày 26/06/2025, tại Văn phòng Trung tâm Huấn luyện và Thi đấu Thể dục Thể thao TPHCM, số 02 Lê Đại Hành, Phường 15, Quận 11, TPHCM,  theo sự đề nghị của Tổng Thư Ký, Ban Chấp Hành Liên đoàn Kiếm đạo TPHCM đã công bố quyết định bổ nhiệm Thạc sỹ Nguyễn Minh Trung vào chức vụ Chánh Văn phòng Liên đoàn Kiếm đạo TPHCM. Việc bổ nhiệm Chánh Văn phòng nhằm tiếp tục củng cố cơ cấu tổ chức và tăng cường hoạt động của Liên đoàn Kiếm đạo TPHCM, chuẩn bị cho nhiệm kỳ tiếp theo.\n\nChánh Văn phòng là người đứng đầu Văn phòng Liên đoàn, có trách nhiệm chỉ đạo, điều hành Văn phòng Liên đoàn và chịu trách nhiệm trực tiếp trước Tổng Thư Ký và Chủ tịch đối với các hoạt động của Văn phòng.\n\nThạc sỹ Nguyễn Minh Trung hiện là giảng viên của Đại học Công Thương Thành phố Hồ Chí Minh với gần 20 năm kinh nghiệm chuyên môn về giảng dạy và nghiên cứu, ông đồng thời đã đạt đệ nhị đẳng kiếm đạo và đã tích cực tham gia tổ chức nhiều giải đấu, sự kiện và các hoạt động khác của Liên đoàn trong thời gian qua.\n\nTrong buổi công bố quyết định bổ nhiệm, đại diện cho Ban Chấp hành Liên đoàn Kiếm đạo TPHCM, Ông Trần Thanh Tùng, Chủ tịch Liên đoàn chúc mừng Thạc sỹ Nguyễn Minh Trung được tín nhiệm cho vị trí mới, tin tưởng rằng Ông là sự chọn lựa phù hợp đối với vị trí này, mong muốn Ông tích cực hỗ trợ Tổng Thư ký và Liên đoàn chuẩn bị thật tốt cho Giải Kiếm đạo Quốc tế TPHCM năm 2025 vào tháng 8 sắp tới.\n\nTrong lời đáp từ, Ông Trung cảm ơn sự tin tưởng của Ban Chấp hành Liên đoàn đối với ông và hứa sẽ hỗ trợ thật tốt cho Tổng Thư ký trong việc quản trị văn phòng và chuẩn bị cho Giải Kiếm đạo Quốc tế TPHCM năm 2025.\n\n#kiếmđạo #kendo #hcmkendo #KiếmđạoTPHCM',
+    date: "June 29, 2025",
+    attachmentLinks: [],
+    image: news_20250701
+  },
+  {
+    uid: "4387a58f-b1e5-45a7-8b20-6987f6be8c0d",
+    title: `CHẤP THUẬN CHÍNH THỨC CHO GIẢI KIẾM ĐẠO QUỐC TẾ THÀNH PHỐ HỒ CHÍ MINH NĂM 2025\nOFFICIALLY APPROVAL FOR HO CHI MINH CITY INTERNATIONAL KENDO TOURNAMENT 2025`,
+    content: `Ngày 27/06/2025, Ủy ban Nhân dân Thành phố Hồ Chí Minh đã chính thức chấp thuận cho Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh tổ chức Giải Kiếm đạo Quốc tế Thành phố Hồ Chí Minh năm 2025.
+\nĐây là giải đấu trong khuôn khổ hệ thống giải đấu quốc tế  truyền thống “Giải Vô địch Kiếm đạo Việt Nam mở rộng (Vietnam Open Kendo Championships – VKOCs)” do Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh tổ chức từ năm 2014 đến nay. Nhân dịp 50 năm ngày thống nhất đất nước, Giải năm nay sẽ mang tên “Giải Kiếm đạo Quốc tế Thành phố Hồ Chí Minh năm 2025 - Cúp Chiến Thắng”.
+\nCho đến hiện nay, đã có hơn 200 vận động viên và huấn luyện viên trong nước và nước ngoài đăng ký tham gia giải đấu.
+\nLiên đoàn Kiếm đạo Thành Phố Hồ Chí Minh đang hoàn thiện công tác hậu cần nhằm mang đến cho vận động viên và huấn luyện viên một giải đấu hoành tráng và đáng nhớ.
+\n#VietnamOpenKendoChampionships #VOKCs  #GiảiKiếmđạoQuốctếTPHCM #HCMCInternationalKendoTournament
+${DIVIDER_STRING}
+\nOn June 27, 2025, Ho Chi Minh City People’s Committee officially approved the Ho Chi Minh City Kendo Federation to organize Ho Chi Minh City International Kendo Tournament 2025.
+\nThis tournament is part of the traditional international competition series known as “Vietnam Open Kendo Championships (VKOCs)”, which has been organized by the Ho Chi Minh City Kendo Federation since 2014. In celebration of the 50th anniversary of national reunification, this year's tournament will be titled: “Ho Chi Minh City International Kendo Tournament 2025 – Victory Cup”.
+\nTo date, over 200 athletes and coaches from both domestic and international teams have registered to participate in the tournament.
+\nHo Chi Minh City Kendo Federation is currently finalizing logistics arrangements and preparations to deliver a splendid and memorable event for all athletes and coaches.
+\n#VietnamOpenKendoChampionships #VOKCs  #GiảiKiếmđạoQuốctếTPHCM #HCMCInternationalKendoTournament`,
+    date: "June 29, 2025",
+    attachmentLinks: [{
+      name: "Chấp thuận chính thức cho giải Kiếm Đạo Quốc Tế Thành Phố Hồ Chí Minh năm 2025",
+      url: "https://www.facebook.com/share/p/15oPZJEtks/"
+    }],
+    image: VOKCs_2025,
+    additionalImages: [news_20250701_2]
   }
 ]
 
