@@ -12,14 +12,14 @@ const DIVIDER_STRING ='\n\n_______________\n\n'
 export const newsItemHome: NewsItemSummary[] = [
   {
     uid: "4387a58f-b1e5-45a7-8b20-6987f6be8c0d",
-    title: 'CHẤP THUẬN CHÍNH THỨC CHO GIẢI KIẾM ĐẠO QUỐC TẾ THÀNH PHỐ HỒ CHÍ MINH NĂM 2025\nOFFICIALLY APPROVAL FOR HO CHI MINH CITY INTERNATIONAL KENDO TOURNAMENT 2025',
+    title: 'Chấp thuận chính thức cho giải Kiếm Đạo Quốc Tế Thành phố Hồ Chí Minh 2025\nOfficially approval for Ho Chi Minh City International Kendo Tournament 2025',
     //summary: 'Ngày 27/06/2025, Ủy ban Nhân dân Thành phố Hồ Chí Minh đã chính thức chấp thuận cho Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh tổ chức Giải Kiếm đạo Quốc tế Thành phố Hồ Chí Minh năm 2025.',
     link: "/news/4387a58f-b1e5-45a7-8b20-6987f6be8c0d",
     image: VOKCs_2025
   },
   {
     uid: "e3331b50-8b6d-41e5-aedb-d2b94b1a8042",
-    title: `LIÊN ĐOÀN KIẾM ĐẠO THÀNH PHỐ HỒ CHÍ MINH BỔ NHIỆM CHÁNH VĂN PHÒNG`,
+    title: `Liên Đoàn Kiếm Đạo Thành phố Hồ Chí Minh bổ nhiệm Chánh Văn Phòng`,
     //summary: 'Ban Chấp Hành Liên đoàn Kiếm đạo TPHCM đã công bố quyết định bổ nhiệm Thạc sỹ Nguyễn Minh Trung vào chức vụ Chánh Văn phòng Liên đoàn Kiếm đạo TPHCM',
     link: "/news/e3331b50-8b6d-41e5-aedb-d2b94b1a8042",
     image: news_20250701
