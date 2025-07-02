@@ -8,7 +8,7 @@ export interface ClubInfo {
 export interface NewsItemSummary {
   uid: string
   title: string
-  summary: string
+  summary?: string
   image: string
   link?: string
 }
@@ -25,4 +25,5 @@ export interface NewsItemDetail {
   date: string
   image?: string
   attachmentLinks?: AttachmentLink[]
+  additionalImages?: string[]
 }
