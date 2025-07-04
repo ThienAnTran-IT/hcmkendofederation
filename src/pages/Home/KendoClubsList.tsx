@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import { ClubInfo } from "../../types/types"
 import DaidoClubLogo from "../../assets/images/logoOfClubs/DaidoClubLogo.svg"
 import KazekenClubLogo from "../../assets/images/logoOfClubs/KazekenClubLogo.svg"
@@ -97,6 +98,26 @@ const KendoClubs: ClubInfo[] = [
 ]
 
 export const KendoClubsList = () => {
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    // Simulate data loading
+    const timer = setTimeout(() => {
+      setIsLoading(false)
+    }, 1000)
+
+    return () => clearTimeout(timer)
+  }, [])
+
+  if (isLoading) {
+    return (
+      <div className="flex justify-center items-center py-8">
+        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#47619e]"></div>
+        <span className="ml-2 text-[#47619e]">Đang tải danh sách câu lạc bộ...</span>
+      </div>
+    )
+  }
+
   return (
     <div>
       <div className="leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
