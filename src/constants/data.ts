@@ -6,10 +6,17 @@ import image13 from '../assets/images//homeGallery/image13.jpg'
 import VOKCs_2025 from '../assets/images/news/VOKCs_2025.jpg'
 import news_20250701 from '../assets/images/news/news_20250701.jpg'
 import news_20250701_2 from '../assets/images/news/news_20250701_2.jpg'
+import news_20250715 from '../assets/images/news/news_20250715.png'
 
 const DIVIDER_STRING ='\n\n_______________\n\n'
 
 export const newsItemHome: NewsItemSummary[] = [
+  {
+    uid: "f0962929-2cc2-4fa3-9733-bc20daecae2a",
+    title: 'Giải Kiếm đạo Quốc tế TP.HCM 2025: 235 trận đấu trong hai ngày, thước đo bản lĩnh và tinh thần thượng võ',
+    link: "https://www.vothuat.vn/cac-mon-phai/giai-kiem-dao-quoc-te-tp-hcm-2025-235-tran-dau-trong-hai-ngay-thuoc-do-ban-linh-va-tinh-than-thuong-vo.html",
+    image: news_20250715
+  },
   {
     uid: "4387a58f-b1e5-45a7-8b20-6987f6be8c0d",
     title: 'Chấp thuận chính thức cho giải Kiếm Đạo Quốc Tế Thành phố Hồ Chí Minh 2025\nOfficially approval for Ho Chi Minh City International Kendo Tournament 2025',

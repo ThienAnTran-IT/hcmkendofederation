@@ -1,3 +1,4 @@
+
 import { ClubInfo } from "../../types/types"
 import DaidoClubLogo from "../../assets/images/logoOfClubs/DaidoClubLogo.svg"
 import KazekenClubLogo from "../../assets/images/logoOfClubs/KazekenClubLogo.svg"
@@ -97,6 +98,7 @@ const KendoClubs: ClubInfo[] = [
 ]
 
 export const KendoClubsList = () => {
+
   return (
     <div>
       <div className="leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
