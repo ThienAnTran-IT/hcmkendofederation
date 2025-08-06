@@ -28,7 +28,7 @@ export const Footer = () => {
                   d="m16 9.5l-3-3V2h-2v2.5l-3-3l-8 8v.5h2v5h5v-3h2v3h5v-5h2z"
                 ></path>
               </svg>
-              <p>Address: 725/14 Trường Chinh, Tây Thạnh, Tân Phú, Ho Chi Minh City, Vietnam</p>
+              <p>Address: 725/14 Trường Chinh, Tây Thạnh, Hồ Chí Minh City, Việt Nam</p>
             </div>
             <div className="flex gap-2.5 items-baseline">
               <svg

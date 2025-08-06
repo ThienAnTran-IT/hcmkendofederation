@@ -7,10 +7,17 @@ import VOKCs_2025 from '../assets/images/news/VOKCs_2025.jpg'
 import news_20250701 from '../assets/images/news/news_20250701.jpg'
 import news_20250701_2 from '../assets/images/news/news_20250701_2.jpg'
 import news_20250715 from '../assets/images/news/news_20250715.png'
+import VOKCsCUP2025_Backdrop from '../assets/images/news/VOKCsCUP2025_Backdrop.jpg'
 
 const DIVIDER_STRING ='\n\n_______________\n\n'
 
 export const newsItemHome: NewsItemSummary[] = [
+  {
+    uid: "ab7d2674-6e92-420a-9940-727f332fb19a",
+    title: 'THƯ CẢM ƠN NHÀ TÀI TRỢ\nSPONSOR APPRECIATION LETTER',
+    link: "/news/ab7d2674-6e92-420a-9940-727f332fb19a",
+    image: VOKCsCUP2025_Backdrop
+  },
   {
     uid: "f0962929-2cc2-4fa3-9733-bc20daecae2a",
     title: 'Giải Kiếm đạo Quốc tế TP.HCM 2025: 235 trận đấu trong hai ngày, thước đo bản lĩnh và tinh thần thượng võ',
@@ -345,6 +352,57 @@ ${DIVIDER_STRING}
     }],
     image: VOKCs_2025,
     additionalImages: [news_20250701_2]
+  },
+  {
+    uid: "ab7d2674-6e92-420a-9940-727f332fb19a",
+    title: 'THƯ CẢM ƠN NHÀ TÀI TRỢ\nSPONSOR APPRECIATION LETTER',
+    content: `
+THƯ CẢM ƠN NHÀ TÀI TRỢ
+
+Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh xin gửi lời cảm ơn chân thành và sâu sắc nhất đến các đơn vị, cá nhân đã đồng hành và tài trợ cho __"Giải Kiếm đạo Quốc tế Thành phố Hồ Chí Minh năm 2025"__:
+
+• Công ty TNHH Thực phẩm Orion Vina
+• Công ty Luật Global Vietnam Lawyers
+• Công ty TNHH Chiro Lifestyles
+• Hệ thống Anh ngữ Starlight
+• ZEUS Studio (Thủ Dầu Một)
+• Câu lạc bộ Kiếm đạo Sài Gòn (Saigon Kendo Club)
+• Câu lạc bộ Kiếm đạo Kazeken (Kazeken Kendo Club)
+• Câu lạc bộ Kiếm đạo Bình Dương (Binh Duong Kendo Club)
+• Câu lạc bộ Kiếm đạo Taiyo (Taiyo Kendo Club)
+• Võ sư Kim Chi Suk
+
+Sự hỗ trợ quý báu của quý Nhà tài trợ đóng góp phần rất quan trọng trong việc tổ chức giải đấu này, tạo nên một cơ hội giao lưu võ thuật mang tầm cỡ thế giới, kết nối kiếm đạo Thành phố Hồ Chí Minh nói riêng, kiếm đạo Việt Nam nói chung với cộng đồng kiếm đạo khu vực và thế giới.
+
+Chúng tôi hy vọng sẽ tiếp tục nhận được sự đồng hành của quý vị trong các sự kiến kiếm đạo tiếp theo của Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh. \n
+
+Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh\n
+#VietnamOpenKendoChampionships #VOKCs #kendo #kiếmđạo
+${DIVIDER_STRING}
+SPONSOR APPRECIATION LETTER
+
+Ho Chi Minh City Kendo Federation would like to extend our sincerest and deepest gratitude to the organizations and individuals who have supported and sponsored the __"2025 Ho Chi Minh City International Kendo Tournament"__:
+
+• Orion Vina Food Co., Ltd.
+• Global Vietnam Lawyers
+• Chiro Lifestyles Co., Ltd.
+• Starlight English Language Center
+• ZEUS Studio (Thu Dau Mot)
+• Saigon Kendo Club
+• Kazeken Kendo Club
+• Binh Duong Kendo Club
+• Taiyo Kendo Club
+• Master Kim Chi Suk
+
+Your valuable support played a vital role in the successful organization of this tournament, creating a world-class martial arts exchange opportunity and strengthening the connection between the kendo community of Ho Chi Minh City in particular, and Vietnam as a whole, with regional and international kendo communities.
+
+We hope to continue receiving your support in future kendo events organized by Ho Chi Minh City Kendo Federation.
+
+Ho Chi Minh City Kendo Federation
+
+#VietnamOpenKendoChampionships #VOKCs #kiếmđạo #kendo`,
+    date: "August 6, 2025",
+    image: VOKCsCUP2025_Backdrop
   }
 ]
 
