@@ -106,17 +106,20 @@ export const KendoClubsList = () => {
         <p className="text-[#0d111c]">Kiếm đạo (Kendo) được mệnh danh là một môn võ trui rèn nhân cách của người học. Nếu bạn hứng thú với môn võ dùng kiếm độc đáo này của đất nước mặt trời mọc thì có thể tìm đến các CLB luyện tập Kiếm đạo (Kendo) trực thuộc Liên Đoàn như sau:</p>
       </div>
 
-      {KendoClubs.map((club) => (
-        <div key={club.name}>
-          <InfoCard
-            title={club.name}
-            subtitle={club.location}
-            image={club.image}
-            link={club.url}
-          />
-        </div>
+      <div>
+        {KendoClubs.map((club) => (
+          <div key={club.name}>
+            <InfoCard
+              title={club.name}
+              subtitle={club.location}
+              image={club.image}
+              link={club.url}
+            />
+          </div>
 
-      ))}
+        ))}
+      </div>
+     
     </div>
   )
 }
