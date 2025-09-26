@@ -14,23 +14,30 @@ export const NavBar: React.FC<{selectedTab: TabProps, className?: string, logo?:
   
   return (
     <div className={className ? `${className}` : 'bg-[#0d111c] text-white'}>
-      <header className="flex items-center justify-between whitespace-nowrap px-10 py-3">
-        <div className="flex items-center gap-4 text-[#0d111c]">
-          <img
-            src={logo ?? HcmKendoLogoWithText}
-            alt="HCM Kendo Federation Logo"
-            width={80}
-            height={80}
-            loading="lazy"
-          />
+      <header className="flex items-center justify-between whitespace-nowrap h-20">
+        <div className="flex items-center gap-4 text-[#0d111c] px-10 py-3">
+          <a href="/" className="flex items-center gap-3">
+            <img
+              src={logo ?? HcmKendoLogoWithText}
+              alt="HCM Kendo Federation Logo"
+              width={80}
+              height={80}
+              loading="lazy"
+            />
+          </a>
+          
         </div>
-        <div className="flex flex-1 justify-end gap-8">
-          <div className="flex items-center gap-9">
+        <div className="flex flex-1 justify-end gap-0 h-full">
+          <div className="flex items-stretch h-full">
             {
               Tabs.map((tab) => (
                 <a
                   key={tab.name}
-                  className={`text-sm font-medium leading-normal ${currentTab.name === tab.name ? 'selected-tab' : ''}`}
+                  className={`
+                    flex items-center px-4 text-base font-medium leading-normal transition-colors duration-200
+                    hover:bg-white/10
+                    ${currentTab.name === tab.name ? 'selected-tab' : ''}
+                  `}
                   href={tab.path}
                   onClick={() => setCurrentTab(tab)}
                 >
@@ -42,5 +49,6 @@ export const NavBar: React.FC<{selectedTab: TabProps, className?: string, logo?:
         </div>
       </header>
     </div>
+
   )
 }
