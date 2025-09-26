@@ -24,7 +24,7 @@ export const NavBar: React.FC<{selectedTab: TabProps, className?: string, logo?:
               alt="HCM Kendo Federation Logo"
               width={60}
               height={60}
-              className="md:w-20 md:h-20"
+              className="md:w-18 md:h-18"
               loading="lazy"
             />
           </a>
