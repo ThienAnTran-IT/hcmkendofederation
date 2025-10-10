@@ -26,7 +26,7 @@ export const InfoCard = ({title, subtitle, image, link, onClick}: InfoCardProps)
     </div>
     <div className="flex flex-col justify-center">
       <p className="text-[#0d111c] text-base font-medium leading-normal">{title}</p>
-      {subtitle && <p className="text-[#47619e] text-sm font-normal leading-normal whitespace-pre-wrap">{subtitle}</p>}
+      {subtitle && <p className="text-[#47619e] text-sm font-normal leading-normal whitespace-pre-wrap hidden sm:block">{subtitle}</p>}
     </div>
   </a>
 )

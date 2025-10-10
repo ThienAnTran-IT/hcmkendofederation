@@ -24,7 +24,7 @@ export const Gallery = () => {
       <div className="gallery-column">
         <img src={image1} style={{width: '100%'}} alt='image1' />
         <img src={image2} style={{width: '100%'}} alt='image2' />
-        <img src={image9} style={{width: '100%', height: '332px'}} alt='image9' />
+        <img src={image9} style={{width: '100%', height: '46.5%'}} alt='image9' />
       </div>
       <div className="gallery-column">
         <img src={image3} style={{width: '100%'}} alt='image3' />

@@ -65,7 +65,7 @@ export const HomeQA = () => {
         </div>
       </div>
       {openingIndex === index && (
-        <p className="text-[#47619e] text-sm font-normal ml-[50px] whitespace-pre-wrap">
+        <p className="text-[#47619e] text-sm font-normal ml-[50px] whitespace-pre-wrap text-justify">
           <ReactMarkdown>{answer}</ReactMarkdown>
         </p>
         
@@ -80,7 +80,7 @@ export const HomeQA = () => {
     <div className="mt-10 mb-10">
       <div className="leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
         <h2 className="text-[#0d111c] text-[22px] font-bold mb-2">Tìm hiểu về môn Kiếm Đạo</h2>
-        <p className="text-[#0d111c]">Kiếm đạo (Kendo): Môn võ Nhật Bản chứa đựng đầy tính nghệ thuật. Nếu bạn là người đam mê với nền văn hóa Nhật Bản, yêu thích các môn võ truyền thống Nhật Bản thì chắc không thể không biết đến Kendo – môn võ đấu kiếm hiện đại của Xứ sở Hoa anh đào.</p>
+        <p className="text-[#0d111c] text-justify">Kiếm đạo (Kendo): Môn võ Nhật Bản chứa đựng đầy tính nghệ thuật. Nếu bạn là người đam mê với nền văn hóa Nhật Bản, yêu thích các môn võ truyền thống Nhật Bản thì chắc không thể không biết đến Kendo – môn võ đấu kiếm hiện đại của Xứ sở Hoa anh đào.</p>
       </div>
     {
       questionAnswers.map((qa, index) => (
