@@ -1,4 +1,8 @@
 import ReactMarkdown from 'react-markdown'
+import { useState } from 'react'
+import '../../assets/styles/HomeQA.css'
+import { ArrowRight } from '../../components/icons/ArrowRight'
+import { ArrowDown } from '../../components/icons/ArrowDown'
 
 interface QAInterface {
   question: string,
@@ -37,22 +41,36 @@ const questionAnswers: QAInterface[] = [
 ]
 
 export const HomeQA = () => {
-  const renderQAItem = (question: string, answer: string) => (
-    <div className='px-4 py-2'>
-      <div className="flex items-center gap-4 bg-[#f8f9fc] min-h-[50px]">
-        <div className="text-[#0d111c] flex items-center justify-center rounded-lg bg-[#e6eaf4] shrink-0 size-8" data-icon="Question" data-size="24px" data-weight="regular">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-            <path
-              d="M140,180a12,12,0,1,1-12-12A12,12,0,0,1,140,180ZM128,72c-22.06,0-40,16.15-40,36v4a8,8,0,0,0,16,0v-4c0-11,10.77-20,24-20s24,9,24,20-10.77,20-24,20a8,8,0,0,0-8,8v8a8,8,0,0,0,16,0v-.72c18.24-3.35,32-17.9,32-35.28C168,88.15,150.06,72,128,72Zm104,56A104,104,0,1,1,128,24A104.11 104.11 0 0 1 232 128Zm-16 0a88 88 0 1 0 -88 88A88.1 88.1 0 0 0 216 128Z"
-            ></path>
-          </svg>
-        </div>
-        <div className="flex flex-col justify-center">
+  const [openingIndex, setOpentingIndex] = useState<number | null>(null)
+
+  const renderQAItem = (question: string, answer: string, index: number) => (
+    <div className='px-4 py-2 QAItem'>
+      <div
+        className="flex items-center justify-between gap-4 bg-[#f8f9fc] min-h-[50px]"
+        onClick={() => setOpentingIndex(openingIndex === index ? null : index)}
+      >
+        <div className="flex items-center gap-3 flex-1">
+          <div className="text-[#0d111c] flex items-center justify-center rounded-lg bg-[#e6eaf4] shrink-0 size-8" data-icon="Question" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M140,180a12,12,0,1,1-12-12A12,12,0,0,1,140,180ZM128,72c-22.06,0-40,16.15-40,36v4a8,8,0,0,0,16,0v-4c0-11,10.77-20,24-20s24,9,24,20-10.77,20-24,20a8,8,0,0,0-8,8v8a8,8,0,0,0,16,0v-.72c18.24-3.35,32-17.9,32-35.28C168,88.15,150.06,72,128,72Zm104,56A104,104,0,1,1,128,24A104.11 104.11 0 0 1 232 128Zm-16 0a88 88 0 1 0 -88 88A88.1 88.1 0 0 0 216 128Z"
+              ></path>
+            </svg>
+          </div>
           <p className="text-[#0d111c] text-base font-medium leading-normal line-clamp-1">{question}</p>
         </div>
         
+        <div className="flex items-center ml-2">
+          {openingIndex === index ? <ArrowDown /> : <ArrowRight />}
+        </div>
       </div>
-      <p className="text-[#47619e] text-sm font-normal ml-[50px] whitespace-pre-wrap"><ReactMarkdown>{answer}</ReactMarkdown></p>
+      {openingIndex === index && (
+        <p className="text-[#47619e] text-sm font-normal ml-[50px] whitespace-pre-wrap text-justify">
+          <ReactMarkdown>{answer}</ReactMarkdown>
+        </p>
+        
+      )}
+      
       
     </div>
    
@@ -62,12 +80,12 @@ export const HomeQA = () => {
     <div className="mt-10 mb-10">
       <div className="leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
         <h2 className="text-[#0d111c] text-[22px] font-bold mb-2">Tìm hiểu về môn Kiếm Đạo</h2>
-        <p className="text-[#0d111c]">Kiếm đạo (Kendo): Môn võ Nhật Bản chứa đựng đầy tính nghệ thuật. Nếu bạn là người đam mê với nền văn hóa Nhật Bản, yêu thích các môn võ truyền thống Nhật Bản thì chắc không thể không biết đến Kendo – môn võ đấu kiếm hiện đại của Xứ sở Hoa anh đào.</p>
+        <p className="text-[#0d111c] text-justify">Kiếm đạo (Kendo): Môn võ Nhật Bản chứa đựng đầy tính nghệ thuật. Nếu bạn là người đam mê với nền văn hóa Nhật Bản, yêu thích các môn võ truyền thống Nhật Bản thì chắc không thể không biết đến Kendo – môn võ đấu kiếm hiện đại của Xứ sở Hoa anh đào.</p>
       </div>
     {
       questionAnswers.map((qa, index) => (
         <div key={index}>
-          {renderQAItem(qa.question, qa.answer)}
+          {renderQAItem(qa.question, qa.answer, index)}
         </div>
       ))
     }

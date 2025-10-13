@@ -105,7 +105,7 @@ export const WhyLearnKendo = () => {
       </div>
       <div className="flex flex-col gap-1">
         <h2 className="text-[#0d111c] text-base font-bold leading-tight">{title}</h2>
-        <p className="text-[#47619e] text-sm font-normal leading-normal">{description}</p>
+        <p className="text-[#47619e] text-sm font-normal leading-normal text-justify">{description}</p>
       </div>
     </div>
   )
@@ -114,14 +114,17 @@ export const WhyLearnKendo = () => {
     <div className="bg-white rounded-lg my-10 relative"
       style={{ boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.44)"}}
     >
-      <div className="text-[#0d111c]tracking-[-0.015em] px-16 pb-3 pt-5 text-center">
-        <h2 className="text-[#0d111c] text-[22px] font-bold leading-tight mb-2">Tại sao người ta lại tập Kiếm Đạo</h2>
-        <div className="divider">
-          <span className="flex items-center justify-center">
-            <span className="icon-[tabler--crown] size-5" />
-          </span>
+      <div className="text-[#0d111c]tracking-[-0.015em]  pb-3 pt-5 text-justify">
+        <div className="px-16">
+          <h2 className="text-[#0d111c] text-[22px] font-bold leading-tight mb-2">Tại sao người ta lại tập Kiếm Đạo</h2>
+          <div className="divider">
+            <span className="flex items-center justify-center">
+              <span className="icon-[tabler--crown] size-5" />
+            </span>
+          </div>
         </div>
-        <p className="text-[#0d111c]">Kiếm đạo (Kendo) có ưu điểm gì mà lại khiến nhiều người yêu thích và có mong muốn tham gia học bộ môn võ thuật này đến vậy? Không chỉ ở Nhật Bản mà Kiếm đọa (Kendo) còn lan rộng ra toàn thế giới? Không phải tự nhiên mà Kendo lại trở nên phổ biến</p>
+        
+        <p className="px-4 text-[#0d111c]">Kiếm đạo (Kendo) có ưu điểm gì mà lại khiến nhiều người yêu thích và có mong muốn tham gia học bộ môn võ thuật này đến vậy? Không chỉ ở Nhật Bản mà Kiếm đọa (Kendo) còn lan rộng ra toàn thế giới? Không phải tự nhiên mà Kendo lại trở nên phổ biến</p>
       </div>
      
       <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">

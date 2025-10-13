@@ -1,0 +1,30 @@
+
+
+/* .masked-text {
+    font-weight: bold;
+    color: transparent;
+    background-image: url('../images/homeGallery/image13.jpg'); 
+    background-size: 120%;
+    background-position: 0 50%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-background 5s infinite alternate linear;
+} */
+
+/* Mobile responsive masked text */
+@media (max-width: 640px) {
+    .masked-text {
+        background-size: 200%; /* Larger background for mobile */
+        line-height: 1.1; /* Tighter line height for mobile */
+    }
+}
+
+@keyframes animate-background {
+    0% {
+        background-position: 0 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
