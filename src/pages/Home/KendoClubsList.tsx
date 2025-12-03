@@ -8,7 +8,7 @@ import ShokubanClubImage from "../../assets/images/logoOfClubs/ShokubanClubImage
 import TomokaiLogo from "../../assets/images/logoOfClubs/TomokaiLogo.svg"
 import NitoukanClubLogo from "../../assets/images/logoOfClubs/NitoukanClubLogo.svg"
 import KenzekanClubLogo from "../../assets/images/logoOfClubs/KenzekanClubLogo.svg"
-import SaigonJukenjaiLogo from "../../assets/images/logoOfClubs/SaigonJukenjaiLogo.svg"
+import SaigonJukenjaiLogo from "../../assets/images/logoOfClubs/SaigonJukenjaiLogo.jpg"
 import KendoBinhDuongLogo from "../../assets/images/logoOfClubs/KendoBinhDuongLogo.svg"
 import HanoiKendoLogo from "../../assets/images/logoOfClubs/HanoiKendoLogo.svg"
 import SaganLogo from "../../assets/images/logoOfClubs/SaganLogo.svg"
@@ -69,7 +69,7 @@ const KendoClubs: ClubInfo[] = [
     name: "Câu lạc bộ súng Kiếm đạo Sài Gòn Jukendo Kai (Saigon Jukendo Kai Kendo Club)",
     location: "Rach Mieu Swimming Pool, 1 Đ. Hoa Phượng, Phường 2, Phú Nhuận, Hồ Chí Minh",
     image: SaigonJukenjaiLogo,
-    url: "https://www.facebook.com/jukendo.saigon/"
+    url: "https://www.facebook.com/saigonjukendokai"
   },
   {
     name: "Câu lạc bộ Kiếm đạo Bình Dương (Binh DuongKendo Club)",
