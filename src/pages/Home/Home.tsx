@@ -11,8 +11,11 @@ import { HomeQA } from './HomeQA'
 import image10 from '../../assets/images/homeGallery/image10.jpg'
 import { Tabs } from '../../constants/constants'
 import { Footer } from '../../components/Footer'
+import {useLanguage} from '../../components/LanguageContext';
 
 export const Home = () => {
+  const {language} = useLanguage();
+  console.log("Current language in Home:", language);
   return (
     <div>
       <div className="relative flex size-full min-h-screen flex-col bg-[#f8f9fc] group/design-root overflow-x-hidden">  

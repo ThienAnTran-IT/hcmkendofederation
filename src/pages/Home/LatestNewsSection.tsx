@@ -1,16 +1,20 @@
 
 import { newsItemHome } from '../../constants/data'
+import { useLanguage } from '../../components/LanguageContext';
+import LatestNewsSectionData from '../../data/LatestNewsSection.json';
 
 const MAX_NEWS_ITEMS_IN_HOME = 4
 
 const latestNews = newsItemHome.slice(0, MAX_NEWS_ITEMS_IN_HOME)
 
-export const LatestNewsSection = () => (
+export const LatestNewsSection = () => {
+  const { language } = useLanguage();
+  return (
   <div>
     <div className='px-4 pt-6 flex justify-between items-center'>
-      <h2 className="text-[#0d111c] text-[22px] font-bold leading-tight tracking-[-0.015em] mb-0">Latest News</h2>
+      <h2 className="text-[#0d111c] text-[22px] font-bold leading-tight tracking-[-0.015em] mb-0">{LatestNewsSectionData.header[language]}</h2>
       <a className="text-[#47619e] italic after:bg-[#47619e] hover:underline cursor-pointer hover:font-bold" href='/news'>
-        Xem tất cả
+        {LatestNewsSectionData.seeAllButton[language]}
       </a>
     </div>
     
@@ -26,7 +30,7 @@ export const LatestNewsSection = () => (
               <p className="text-[#0d111c] text-base font-medium leading-normal whitespace-pre-wrap">{newsItem.title}</p>
               <p className="text-[#47619e] text-sm font-normal leading-normal">{newsItem.summary}</p>
               <a className="italic text-[#47619e] after:bg-[#47619e] hover:underline cursor-pointer hover:font-bold" href={newsItem.link}>
-                Xem thêm
+                {LatestNewsSectionData.seeDetailsButton[language]}
               </a>
             </div>
           </div>
@@ -34,4 +38,4 @@ export const LatestNewsSection = () => (
       }
     </div>
   </div>
-)
+)}

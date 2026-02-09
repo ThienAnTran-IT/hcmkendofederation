@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeRaw from 'rehype-raw'
 import { NavBar } from '../../components/Navbar'
+// Language context is now global; no local state needed here
 import { Tabs } from '../../constants/constants'
 import { NewsList } from './NewsList'
 import { newsItemDetail } from '../../constants/data'
