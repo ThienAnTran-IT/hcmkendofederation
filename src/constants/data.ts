@@ -228,78 +228,78 @@ _Ho Chi Minh City Kendo Federation would like to announce “Ho Chi Minh City In
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp; 01 Giải Vô địch: cúp vô địch và huy chương vàng cho từng thành viên\ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_01 Championship: Championship trophy and gold medal for each member_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp; 01 Giải Á quân:  Huy chương bạc cho từng thành viên\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp; 01 Giải Á quân:  Huy chương bạc cho từng thành viên
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_01 Runner-up: Silver medal for each member_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp; 02 Giải Hạng Ba: Huy chương đồng cho từng thành viên\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp; 02 Giải Hạng Ba: Huy chương đồng cho từng thành viên
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_02 Third Place Prize: Bronze medal for each member_
 
 
-**8.&nbsp;Phí tham dự:**\ 
+**8.&nbsp;Phí tham dự:**
 &nbsp;&nbsp;&nbsp;&nbsp;**_Participation fee:_**
 
-&nbsp;&nbsp;* Đối với VĐV Việt Nam: 500.000đồng/VĐV/ mỗi nội dung thi đấu.\ 
+&nbsp;&nbsp;* Đối với VĐV Việt Nam: 500.000đồng/VĐV/ mỗi nội dung thi đấu.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_For Vietnamese players: VND500,000/player/each competition category._
 
-&nbsp;&nbsp;* Đối với VĐV Nước ngoài: 25USD/VĐV/mỗi nội dung thi đấu.\ 
+&nbsp;&nbsp;* Đối với VĐV Nước ngoài: 25USD/VĐV/mỗi nội dung thi đấu.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_For foreigner players: USD25/player/each competition category._
 
-&nbsp;&nbsp;* Tài khoản thanh toán phí tham dự:\ 
+&nbsp;&nbsp;* Tài khoản thanh toán phí tham dự:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Bank account for the payment of the participation fee:_
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Số tài khoản: **1027136033** tại Ngân hàng TMCP Ngoại Thương Việt Nam – Chi nhánh Tân Định (Vietcombank Tân Định)\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Số tài khoản: **1027136033** tại Ngân hàng TMCP Ngoại Thương Việt Nam – Chi nhánh Tân Định (Vietcombank Tân Định)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Account No.: **1027136033** at Foreign Trade Joint Stock Bank of Vietnam, Tan Dinh Branch (Vietcombank Tan Dinh)_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chủ tài khoản: Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chủ tài khoản: Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Account name: Ho Chi Minh City Kendo Federation_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nội dung: “**[Tên người tham dự][Phí tham dự Giải vô địch kiếm đạo Quốc tế TP. Hồ Chí Minh năm 2025 – Cúp VOKCs]**”\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nội dung: “**[Tên người tham dự][Phí tham dự Giải vô địch kiếm đạo Quốc tế TP. Hồ Chí Minh năm 2025 – Cúp VOKCs]**”
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Description: “**[Full name] [Participation fee for ”Ho Chi Minh City International Kendo Tournament 2025 – VOKCs Cup"]**_"
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mã Swift code của Ngân hàng TMCP Ngoại Thương Việt Nam – Chi nhánh Tân Định (Vietcombank Tân Định): **BFTVVNVX037**\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mã Swift code của Ngân hàng TMCP Ngoại Thương Việt Nam – Chi nhánh Tân Định (Vietcombank Tân Định): **BFTVVNVX037**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Swift code of Foreign Trade Joint Stock Bank of Vietnam, Tan Dinh Branch (Vietcombank Tan Dinh): **BFTVVNVX037**_
 
 
-**9.&nbsp;Hồ sơ đăng ký tham dự**\ 
+**9.&nbsp;Hồ sơ đăng ký tham dự**
 **_Application for registration_**
  
-&nbsp;&nbsp;a. Hồ sơ tham dự:\ 
+&nbsp;&nbsp;a. Hồ sơ tham dự:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Attendance application:_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i)&nbsp;&nbsp; Đơn tham dự giải (có ảnh);\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i)&nbsp;&nbsp; Đơn tham dự giải (có ảnh);
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    _Competition registration form (with photo);_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii)&nbsp;&nbsp; CMND, CCCD hoặc Hộ chiếu (đối với người Việt Nam); hộ chiếu (đối với người nước ngoài).\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii)&nbsp;&nbsp; CMND, CCCD hoặc Hộ chiếu (đối với người Việt Nam); hộ chiếu (đối với người nước ngoài).
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     _ID Card or Passport (for Vietnamese); passport (for foreigner)._
 
 
-&nbsp;&nbsp;b. Đăng ký\ 
+&nbsp;&nbsp;b. Đăng ký
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Registration_
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hạn chót đăng ký tham dự: hết ngày 15/06/2025.\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hạn chót đăng ký tham dự: hết ngày 15/06/2025.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Deadline for registration: end of 15 June 2025._
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hồ sơ gửi về email **<u>admin@kcmkendo.org.vn</u>** hoặc gửi bưu điện về Trụ sở Liên đoàn Kiếm đạo TPHCM, số 725/14 Trường Chinh, Tây Thạnh, Tân Phú, TPHCM, Việt Nam.\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hồ sơ gửi về email **<u>admin@kcmkendo.org.vn</u>** hoặc gửi bưu điện về Trụ sở Liên đoàn Kiếm đạo TPHCM, số 725/14 Trường Chinh, Tây Thạnh, Tân Phú, TPHCM, Việt Nam.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Application files should be sent via email to **<u>admin@kcmkendo.org.vn</u>** or sent by post to the Headquarters of Ho Chi Minh City Kendo Federation, 725/14 Truong Chinh, Tay Thanh, Tan Phu, Ho Chi Minh City, Vietnam.._\
  
 
 
 
-Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh trân trọng kính mời các thành viên của quý câu lạc bộ tham gia giải đấu trên.\ 
+Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh trân trọng kính mời các thành viên của quý câu lạc bộ tham gia giải đấu trên.
 _Ho Chi Minh City Kendo Federation respectfully invites the members of your esteemed club to participate in the tournament as above mentioned._
 
 
 Trong trường hợp quý kiếm hữu cần thêm bất cứ thông tin hoặc hỗ trợ nào từ chúng tôi, xin vui lòng liên hệ:
 _In case your esteemed kendo practitioners need any further information or assistance from us, please feel free to contact:_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Ông Trần Thanh Tùng – Chủ tịch Liên đoàn Kiếm đạo TPHCM\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Ông Trần Thanh Tùng – Chủ tịch Liên đoàn Kiếm đạo TPHCM
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     _Mr. Tran Thanh Tung – President of Ho Chi Minh City Kendo Federation_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     ĐT: (84) (0) 903170317\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     ĐT: (84) (0) 903170317
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     _Telephone No:  (84) (0) 903170317_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Email: **<u>tung.tran@hcmkendo.org.vn</u>** hoặc **<u>admin@kcmkendo.org.vn</u>**\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Email: **<u>tung.tran@hcmkendo.org.vn</u>** hoặc **<u>admin@kcmkendo.org.vn</u>**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     _Email: **<u>tung.tran@hcmkendo.org.vn</u>** or **<u>admin@kcmkendo.org.vn</u>**_
 
 
