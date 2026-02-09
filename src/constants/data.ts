@@ -207,25 +207,25 @@ _Ho Chi Minh City Kendo Federation would like to announce “Ho Chi Minh City In
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_The Organizing Committee reserves the right to cancel an event if there are insufficient athletes or teams participating, or for other reasons as decided by the Organizing Committee._
 
 
-**7.&nbsp;Khen thưởng**\ 
+**7.&nbsp;Khen thưởng** 
 &nbsp;&nbsp;&nbsp;&nbsp;**_Prizes_**
 
-&nbsp;&nbsp;a. Các nội dung cá nhân:\ 
+&nbsp;&nbsp;a. Các nội dung cá nhân:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Prizes for men/women’s singles:_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp; 01 Giải Vô địch: Cúp vô địch và Huy chương vàng\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp; 01 Giải Vô địch: Cúp vô địch và Huy chương vàng
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_01 Championship: Champion Trophy and Gold Medal_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp; 01 Giải Á quân: Huy chương bạc\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp; 01 Giải Á quân: Huy chương bạc
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_01 Runner-up: Silver Medal_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp; 02 Giải Hạng Ba: Huy chương đồng\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp; 02 Giải Hạng Ba: Huy chương đồng
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_02 Third Place Prizes: Bronze Medals_
 
-&nbsp;&nbsp;b. Các nội dung đồng đội:\ 
+&nbsp;&nbsp;b. Các nội dung đồng đội:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Prizes for teams:_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp; 01 Giải Vô địch: cúp vô địch và huy chương vàng cho từng thành viên\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp; 01 Giải Vô địch: cúp vô địch và huy chương vàng cho từng thành viên
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_01 Championship: Championship trophy and gold medal for each member_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp; 01 Giải Á quân:  Huy chương bạc cho từng thành viên
