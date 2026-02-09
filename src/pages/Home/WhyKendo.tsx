@@ -1,5 +1,4 @@
 import { JSX, SVGProps } from "react"
-import { FlipCard } from "../../components/FlipCard"
 import { useLanguage } from "../../components/LanguageContext"
 
 const reasonsWhyLearnKendo = [

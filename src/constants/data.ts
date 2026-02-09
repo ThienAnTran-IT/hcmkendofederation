@@ -54,7 +54,7 @@ export const newsItemHome: NewsItemSummary[] = [
   },
   {
     uid: "3e966d44-84a7-4965-bf89-5beb81bfb0e6",
-    title: `Giải vô địch kiếm đạo Quốc tế TP. Hồ Chí Minh năm 2025 – Cúp VOKCs\ nHo Chi Minh City International Kendo Tournament 2025 – VOKCs Cup`,
+    title: `Giải vô địch kiếm đạo Quốc tế TP. Hồ Chí Minh năm 2025 – Cúp VOKCs\nHo Chi Minh City International Kendo Tournament 2025 – VOKCs Cup`,
     // summary: 'Thư mời tham dự “Giải vô địch kiếm đạo Quốc tế TP. Hồ Chí Minh năm 2025 – Cúp VOKCs”/Invitation for “Ho Chi Minh City International Kendo Tournament 2025 – VOKCs Cup"',
     link: `/news/3e966d44-84a7-4965-bf89-5beb81bfb0e6`,
     image: "https://cdn.usegalileo.ai/sdxl10/63edc027-361c-4e76-a5d6-d466de44b41b.png"
@@ -89,14 +89,14 @@ _Vietnam Open Kendo Championships (VOKCs) has become a traditional and reputable
 Liên đoàn Kiếm đạo Thành phố Hồ Chí Minh thông báo “Giải vô địch kiếm đạo Quốc tế TP. Hồ Chí Minh năm 2025 – Cúp VOKCs” với các thông tin như sau:
 _Ho Chi Minh City Kendo Federation would like to announce “Ho Chi Minh City International Kendo Tournament 2025 – VOKCs Cup” with the details as follows:_
 
-1.&nbsp;Tên giải đấu: “Giải vô địch kiếm đạo Quốc tế TP. Hồ Chí Minh năm 2025 – Cúp VOKCs”.\ 
+1.&nbsp;Tên giải đấu: “Giải vô địch kiếm đạo Quốc tế TP. Hồ Chí Minh năm 2025 – Cúp VOKCs”.
 &nbsp;&nbsp;&nbsp;&nbsp;_Competition name: "Ho Chi Minh City International Kendo Tournament 2025 – VOKCs Cup"._
 
-2.&nbsp;Thời gian: Thứ Bảy và Chủ Nhật, ngày 09 và 10 tháng 08 năm 2025.\ 
+2.&nbsp;Thời gian: Thứ Bảy và Chủ Nhật, ngày 09 và 10 tháng 08 năm 2025.
 &nbsp;&nbsp;&nbsp;&nbsp;_Time: Saturday and Sunday, 09 and 10 August 2025._
 
-3.&nbsp;Địa điểm: Nhà Thi Đấu Đa Năng Quận 7, số 504-506, đường Huỳnh Tấn Phát, phường Bình Thuận, Quận 7, Thành phố Hồ Chí Minh, Việt Nam.\ 
-&nbsp;&nbsp;&nbsp;&nbsp;_Location: District 7 Sports Complex, No. 504 Huynh Tan Phat Street, Binh Thuan Ward, District 7, Ho Chi Minh City, Vietnam_\  
+3.&nbsp;Địa điểm: Nhà Thi Đấu Đa Năng Quận 7, số 504-506, đường Huỳnh Tấn Phát, phường Bình Thuận, Quận 7, Thành phố Hồ Chí Minh, Việt Nam.
+&nbsp;&nbsp;&nbsp;&nbsp;_Location: District 7 Sports Complex, No. 504 Huynh Tan Phat Street, Binh Thuan Ward, District 7, Ho Chi Minh City, Vietnam_  
 
 &nbsp;&nbsp;&nbsp;&nbsp;Đường dẫn to the location: <u>https://maps.app.goo.gl/hChFFTVQYaQUgbLU9</u>
 &nbsp;&nbsp;&nbsp;&nbsp;_Link to the location: <u>https://maps.app.goo.gl/hChFFTVQYaQUgbLU9_</u>
@@ -113,97 +113,97 @@ _Ho Chi Minh City Kendo Federation would like to announce “Ho Chi Minh City In
 &nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Cá Nhân Nam Trẻ em**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_Children Individual (Boys)_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia. Các vận động viên phải từ đủ 12 tuổi đến dưới 16 tuổi.\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia. Các vận động viên phải từ đủ 12 tuổi đến dưới 16 tuổi.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_There is no limit to the number of athletes participating. Athletes must be from 12 to under 16 years of age._
 
 &nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Cá Nhân Nữ Trẻ em**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_Children Individual (Girls)_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia. Các vận động viên phải từ đủ 12 tuổi đến dưới 16 tuổi.\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia. Các vận động viên phải từ đủ 12 tuổi đến dưới 16 tuổi.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_There is no limit to the number of athletes participating. Athletes must be from 12 to under 16 years of age._
 
 &nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Cá nhân nam (dưới 01 đẳng)**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_Men individual (under 01 dan)_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia. Các vận động viên phải từ 16 tuổi trở lên.\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia. Các vận động viên phải từ 16 tuổi trở lên.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_There is no limit to the number of athletes participating. Athletes must be from 16 years of age and more._
 
-&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Cá nhân nam (01 đẳng)**\ 
+&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Cá nhân nam (01 đẳng)**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_Men individual (01 dan)_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia.\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_There is no limit to the number of athletes participating._
 
-&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Cá nhân nam (02 đẳng)**\ 
+&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Cá nhân nam (02 đẳng)**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_Men individual (02 dan)_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia.\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_There is no limit to the number of athletes participating._
 
-&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Cá nhân nam (03 đẳng)**\ 
+&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Cá nhân nam (03 đẳng)**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_Men individual (03 dan)_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia.\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_There is no limit to the number of athletes participating._
 
-&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Cá nhân nam (4 đẳng trở lên)**\ 
+&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Cá nhân nam (4 đẳng trở lên)**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_Men individual (4 dan and above)_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia.\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_There is no limit to the number of athletes participating._
 
-&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Cá nhân nữ (dưới 01 đẳng)**\ 
+&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Cá nhân nữ (dưới 01 đẳng)**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_Women individual (under 01 dan)_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia. Các vận động viên phải từ 16 tuổi trở lên.\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia. Các vận động viên phải từ 16 tuổi trở lên.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_There is no limit to the number of athletes participating. Athletes must be from 16 years of age and more._
 
-&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Cá nhân nữ (01 đẳng)**\ 
+&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Cá nhân nữ (01 đẳng)**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_Women individual (01 dan)_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia.\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_There is no limit to the number of athletes participating._
 
-&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Cá nhân nữ (2 đẳng trở lên)**\ 
+&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Cá nhân nữ (2 đẳng trở lên)**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_Women individual (2 dan and above)_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia.\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng các vận động viên tham gia.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_There is no limit to the number of athletes participating._
 
-&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Ðồng đội nam (03 thành viên/đội)**\ 
+&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Ðồng đội nam (03 thành viên/đội)**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_Men team (3 members/team)_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng đội tham gia. Các vận động viên phải từ đủ 16 tuổi trở lên.\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng đội tham gia. Các vận động viên phải từ đủ 16 tuổi trở lên.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_There is no limit to the number of teams participating. Athletes must be from 16 years of age and more._
 
-&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Ðồng đội nữ (03 thành viên/đội)**\ 
+&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Ðồng đội nữ (03 thành viên/đội)**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_Women team (3 members/team)_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng đội tham gia. Các vận động viên phải từ đủ 16 tuổi trở lên.\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng đội tham gia. Các vận động viên phải từ đủ 16 tuổi trở lên.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_There is no limit to the number of teams participating. Athletes must be from 16 years of age and more._
 
-&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Ðồng đội nam (05 thành viên/đội)**\ 
+&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Ðồng đội nam (05 thành viên/đội)**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_Men team (5 members/team)_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng đội tham gia. Các vận động viên phải từ đủ 16 tuổi trở lên.\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng đội tham gia. Các vận động viên phải từ đủ 16 tuổi trở lên.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_There is no limit to the number of teams participating. Athletes must be from 16 years of age and more._
 
-&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Ðồng đội nữ (05 thành viên/đội)**\ 
+&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**Ðồng đội nữ (05 thành viên/đội)**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_Women team (5 members/team)_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng đội tham gia. Các vận động viên phải từ đủ 16 tuổi trở lên.\ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Không giới hạn số lượng đội tham gia. Các vận động viên phải từ đủ 16 tuổi trở lên.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_There is no limit to the number of teams participating. Athletes must be from 16 years of age and more._
 
 
 
-&nbsp;**Lưu ý quan trọng:**\ 
+&nbsp;**Lưu ý quan trọng:**
 &nbsp;**_Important notes:_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp; Mỗi vận động viên được quyền đăng ký tối đa **<u>01 nội dung thi đấu cá nhân và 01 nội dung thi đấu đồng đội;</u>**\ 
+&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp; Mỗi vận động viên được quyền đăng ký tối đa **<u>01 nội dung thi đấu cá nhân và 01 nội dung thi đấu đồng đội;</u>**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Each athlete is allowed to register for a maximum of **<u>01 individual and 01 team competition category.</u>**_
  
 
-&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp; Ban Tổ chức có quyền hủy nội dung thi đấu nếu không đủ số lượng vận động viên hoặc đội tham dự hoặc lý do khác theo quyết định của Ban Tổ chức.\ 
+&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp; Ban Tổ chức có quyền hủy nội dung thi đấu nếu không đủ số lượng vận động viên hoặc đội tham dự hoặc lý do khác theo quyết định của Ban Tổ chức.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_The Organizing Committee reserves the right to cancel an event if there are insufficient athletes or teams participating, or for other reasons as decided by the Organizing Committee._
 
 
