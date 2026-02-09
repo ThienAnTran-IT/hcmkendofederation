@@ -11,85 +11,160 @@ import NguyenDangKhoa from '../../assets/images/executiveMemberAvatars/NguyenDan
 import DaoTuanAnh from '../../assets/images/executiveMemberAvatars/DaoTuanAnh.svg'
 import NguyenPhuocTrung from '../../assets/images/executiveMemberAvatars/NguyenPhuocTrung.svg'
 import TranHongMinh from '../../assets/images/executiveMemberAvatars/TranHongMinh.svg'
-
-
-
-
 import '../../assets/styles/executive-committee.css'
+import { useLanguage } from '../../components/LanguageContext';
+import { LangLabel } from '../../types/types';
 
 
 
 interface MemberCardProps {
-  name: string
-  position: string
+  name: LangLabel
+  position: LangLabel
   image: string
 }
 
 const ExecutiveMembers: MemberCardProps[] = [
   {
-    name: "Ông Trần Thanh Tùng",
-    position: "Chủ Tịch Liên Đoàn Kiếm Đạo TP Hồ Chí Minh",
+    name: {
+      vi: "Ông Trần Thanh Tùng",
+      en: "Mr. Tran Thanh Tung"
+    },
+    position: {
+      vi: "Chủ Tịch Liên Đoàn Kiếm Đạo TP Hồ Chí Minh",
+      en: "President of Ho Chi Minh City Kendo Federation"
+    },
     image: TranThanhTung
   },
   {
-    name: "Ông Lý Đại Nghĩa",
-    position: "Phó Chủ tịch thường trực Liên Đoàn Kiếm Đạo TP Hồ Chí Minh",
+    name: {
+      vi: "Ông Lý Đại Nghĩa",
+      en: "Mr. Ly Dai Nghia"
+    },
+    position: {
+      vi: "Phó Chủ tịch thường trực Liên Đoàn Kiếm Đạo TP Hồ Chí Minh",
+      en: "Standing Vice President of Ho Chi Minh City Kendo Federation"
+    },
     image: LyDaiNghia
   },
   {
-    name: "Ông Nguyễn Sỹ Hiệp",
-    position: "Phó Chủ tịch Liên Đoàn Kiếm Đạo TP Hồ Chí Minh",
+    name: {
+      vi: "Ông Nguyễn Sỹ Hiệp",
+      en: "Mr. Nguyen Sy Hiep"
+    },
+    position: {
+      vi: "Phó Chủ tịch Liên Đoàn Kiếm Đạo TP Hồ Chí Minh",
+      en: "Vice President of Ho Chi Minh City Kendo Federation"
+    },
     image: NguyenSyHiep
   },
   {
-    name: "Ông Quách Trọng Nghĩa",
-    position: "Ủy viên thường vụ Liên đoàn Kiếm đạo TP Hồ Chí Minh",
+    name: {
+      vi: "Ông Quách Trọng Nghĩa",
+      en: "Mr. Quach Trong Nghia"
+    },
+    position: {
+      vi: "Ủy viên thường vụ Liên đoàn Kiếm đạo TP Hồ Chí Minh",
+      en: "Standing Member of Ho Chi Minh City Kendo Federation"
+    },
     image: QuachTrongNghia
   },
   {
-    name: "Ông Nguyễn Duy Hân",
-    position: "Ủy viên thường vụ Liên đoàn Kiếm đạo TP Hồ Chí Minh",
+    name: {
+      vi: "Ông Nguyễn Duy Hân",
+      en: "Mr. Nguyen Duy Han"
+    },
+    position: {
+      vi: "Ủy viên thường vụ Liên đoàn Kiếm đạo TP Hồ Chí Minh",
+      en: "Standing Member of Ho Chi Minh City Kendo Federation"
+    },
     image: NguyenDuyHan
   },
   {
-    name: "Ông Nguyễn Trọng Đức",
-    position: "Ủy viên thường vụ Liên đoàn Kiếm đạo TP Hồ Chí Minh",
+    name: {
+      vi: "Ông Nguyễn Trọng Đức",
+      en: "Mr. Nguyen Trong Duc"
+    },
+    position: {
+      vi: "Ủy viên thường vụ Liên đoàn Kiếm đạo TP Hồ Chí Minh",
+      en: "Standing Member of Ho Chi Minh City Kendo Federation"
+    },
     image: NguyenTrongDuc
   },
   {
-    name: "Ông Phan Minh Tuấn",
-    position: "Ủy viên Liên đoàn Kiếm Đạo TP Hồ Chí Minh",
+    name: {
+      vi: "Ông Phan Minh Tuấn",
+      en: "Mr. Phan Minh Tuan"
+    },
+    position: {
+      vi: "Ủy viên Liên đoàn Kiếm Đạo TP Hồ Chí Minh",
+      en: "Member of Ho Chi Minh City Kendo Federation"
+    },
     image: PhanMinhTuan
   },
   {
-    name: "Ông Phan Duy Minh",
-    position: "Ủy viên Liên đoàn Kiếm Đạo TP Hồ Chí Minh",
+    name: {
+      vi: "Ông Phan Duy Minh",
+      en: "Mr. Phan Duy Minh"
+    },
+    position: {
+      vi: "Ủy viên Liên đoàn Kiếm Đạo TP Hồ Chí Minh",
+      en: "Member of Ho Chi Minh City Kendo Federation"
+    },
     image: PhanDuyMinh
   },
   {
-    name: "Ông Đào Tuấn Anh",
-    position: "Ủy viên Liên đoàn Kiếm Đạo TP Hồ Chí Minh",
+    name: {
+      vi: "Ông Đào Tuấn Anh",
+      en: "Mr. Dao Tuan Anh"
+    },
+    position: {
+      vi: "Ủy viên Liên đoàn Kiếm Đạo TP Hồ Chí Minh",
+      en: "Member of Ho Chi Minh City Kendo Federation"
+    },
     image: DaoTuanAnh
   },
   {
-    name: "Ông Nguyễn Phước Trung",
-    position: "Ủy viên Liên đoàn Kiếm Đạo TP Hồ Chí Minh",
+    name: {
+      vi: "Ông Nguyễn Phước Trung",
+      en: "Mr. Nguyen Phuoc Trung"
+    },
+    position: {
+      vi: "Ủy viên Liên đoàn Kiếm Đạo TP Hồ Chí Minh",
+      en: "Member of Ho Chi Minh City Kendo Federation"
+    },
     image: NguyenPhuocTrung
   },
   {
-    name: "Ông Trần Hồng Minh",
-    position: "Ủy viên Liên đoàn Kiếm Đạo TP Hồ Chí Minh",
+    name: {
+      vi: "Ông Trần Hồng Minh",
+      en: "Mr. Tran Hong Minh"
+    },
+    position: {
+      vi: "Ủy viên Liên đoàn Kiếm Đạo TP Hồ Chí Minh",
+      en: "Member of Ho Chi Minh City Kendo Federation"
+    },
     image: TranHongMinh
   },
   {
-    name: "Ông Nguyễn Đăng Khoa",
-    position: "Ủy viên Liên đoàn Kiếm Đạo TP Hồ Chí Minh",
+    name: {
+      vi: "Ông Nguyễn Đăng Khoa",
+      en: "Mr. Nguyen Dang Khoa"
+    },
+    position: {
+      vi: "Ủy viên Liên đoàn Kiếm Đạo TP Hồ Chí Minh",
+      en: "Member of Ho Chi Minh City Kendo Federation"
+    },
     image: NguyenDangKhoa
   }
-]
+];
+
+const header = { 
+  "vi": "Ban Chấp Hành Liên Đoàn",
+  "en": "Executive Committee Members"
+}
 
 
-export const MemberCard = ({ name, position, image }: MemberCardProps) => (
+export const MemberCard = ({ name, position, image }: {name: string, position: string, image: string}) => (
   <>
   <img className='card-avatar' src={image} alt="" width={120} height={120} loading="lazy" />
    <div className="card-section">
@@ -113,18 +188,21 @@ export const MemberCard = ({ name, position, image }: MemberCardProps) => (
  
 )
 
-export const ExecutiveCommiteeMembers = () => (
+export const ExecutiveCommiteeMembers = () => {
+  const { language } = useLanguage();
+
+  return (
   <div>
-    <h2 className="text-[#0d111c] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pt-5 mt-5 mb-0">Ban Chấp Hành Liên Đoàn</h2>
+    <h2 className="text-[#0d111c] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pt-5 mt-5 mb-0">{header[language]}</h2>
     <div className="container">
       <ul className="cards">
         {ExecutiveMembers.map((member, index) => (
            <li className="card">
-            <MemberCard name={member.name} position={member.position} image={member.image} />
+            <MemberCard name={member.name[language]} position={member.position[language]} image={member.image} />
           </li>
           )
         )}
       </ul>
     </div>
   </div>
-)
+)}

@@ -1,8 +1,8 @@
-import { TabProps } from '../components/Navbar';
+import { TabProps } from '../types/types';
 
 export const Tabs: TabProps[] = [
-  { name: 'home', label: 'Trang chủ', path: '/' },
-  { name: 'news', label: 'Tin tức', path: '/news' },
-  { name: 'dojo', label: 'Võ đường', path: '/dojo' }
+  { name: 'home', label: { vi: 'Trang chủ', en: 'Home' }, path: '/' },
+  { name: 'news', label: { vi: 'Tin tức', en: 'News' }, path: '/news' },
+  { name: 'dojo', label: { vi: 'Võ đường', en: 'Dojo' }, path: '/dojo' }
 ]
 

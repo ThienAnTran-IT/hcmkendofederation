@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { NavBar } from '../../components/Navbar'
+// Language context is now global; no local state needed here
 import { Tabs } from '../../constants/constants'
 import { Footer } from '../../components/Footer'
 import { KendoClubsList } from '../Home/KendoClubsList'

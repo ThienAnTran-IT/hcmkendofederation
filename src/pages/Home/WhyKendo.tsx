@@ -1,23 +1,50 @@
 import { JSX, SVGProps } from "react"
-import { FlipCard } from "../../components/FlipCard"
+import { useLanguage } from "../../components/LanguageContext"
 
 const reasonsWhyLearnKendo = [
   {
     icon: <FitnessIconSvg className="w-6 h-6" />,
-    title: "Rèn luyện thể lực, học cách bảo vệ bản thân",
-    description: "Một trong những lợi ích lớn nhất của việc luyện tập võ thuật dù cho bộ môn nào cũng vậy chính là việc luyện tập thể lực, nâng cao sức khỏe cũng như khả năng tự vệ, bảo vệ bản thân hay thậm chí là người xung quanh khỏi những kẻ xấu."
+    title: {
+      "en": "Physical Fitness & Self-Defense",
+      "vi": "Rèn luyện thể lực, học cách bảo vệ bản thân",
+    },
+    description: {
+      "en": "One of the biggest benefits of practicing martial arts, regardless of the discipline, is physical fitness, improving health, as well as the ability to defend oneself and even those around you from bad actors.",
+      "vi": "Một trong những lợi ích lớn nhất của việc luyện tập võ thuật dù cho bộ môn nào cũng vậy chính là việc luyện tập thể lực, nâng cao sức khỏe cũng như khả năng tự vệ, bảo vệ bản thân hay thậm chí là người xung quanh khỏi những kẻ xấu."
+    }
   },
   {
     icon: <BrainIconSvg className="w-6 h-6" />,
-    title: "Tập trung sự chú ý",
-    description: "Khi luyện tập Kendo người học cần phải biết cách tập trung, không được phân tâm. Bởi lẽ chỉ cần đặt 1 chút chú ý đến việc khác sẽ khiến bạn phải nhận ngay 1 đòn đau điếng. "
+    title: {
+      "vi": "Tập trung sự chú ý",
+      "en": "Improve Focus and Concentration",
+    },
+    description: {
+      "vi": "Khi luyện tập Kendo người học cần phải biết cách tập trung, không được phân tâm. Bởi lẽ chỉ cần đặt 1 chút chú ý đến việc khác sẽ khiến bạn phải nhận ngay 1 đòn đau điếng. ",
+      "en": "When practicing Kendo, practitioners must learn to focus and avoid distractions. Even a slight lapse in attention can result in a painful strike."
+    }
   },
   {
     icon: <GreenNewEnergyIconSvg className="w-6 h-6" />,
-    title: "Xả Stress (căng thẳng)",
-    description: "Nếu đang mệt mỏi, áp lực hãy đến với sân tập Kendo - nơi bạn có thể thỏa thích hét lên mà không sợ ai nhòm ngó."
+    title: {
+      "vi":"Xả Stress (căng thẳng)",
+      "en":"Stress Relief",
+    },
+    description: {
+      "vi":"Nếu đang mệt mỏi, áp lực hãy đến với sân tập Kendo - nơi bạn có thể thỏa thích hét lên mà không sợ ai nhòm ngó.",
+      "en":"If you're feeling tired and stressed, come to the Kendo training ground - a place where you can freely shout without worrying about being judged."
+    }
   }
 ]
+
+const header = {
+  "vi": "Tại sao người ta lại tập Kiếm Đạo",
+  "en": "Why do people practice Kendo"
+}
+const subHeader = {
+  "vi": "Kiếm đạo (Kendo) có ưu điểm gì mà lại khiến nhiều người yêu thích và có mong muốn tham gia học bộ môn võ thuật này đến vậy? Không chỉ ở Nhật Bản mà Kiếm đọa (Kendo) còn lan rộng ra toàn thế giới? Không phải tự nhiên mà Kendo lại trở nên phổ biến",
+  "en": "What makes Kendo so appealing that many people are eager to learn this martial art? Kendo has spread not only in Japan but also worldwide. It's not by chance that Kendo has become so popular."
+}
 
 export function FitnessIconSvg(props: SVGProps<SVGSVGElement>) {
   return (
@@ -98,6 +125,8 @@ function GreenNewEnergyIconSvg(props: SVGProps<SVGSVGElement>) {
 }
 
 export const WhyLearnKendo = () => {
+  const { language } = useLanguage();
+
   const renderSingleReason = (icon: JSX.Element, title: string, description: string) => (
     <div className="flex flex-1 gap-3 rounded-lg border border-[#ced6e9] bg-[#f8f9fc] p-4 flex-col">
       <div className="text-[#0d111c]" data-icon="UsersThree" data-size="24px" data-weight="regular">
@@ -115,8 +144,8 @@ export const WhyLearnKendo = () => {
       style={{ boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.44)"}}
     >
       <div className="text-[#0d111c]tracking-[-0.015em]  pb-3 pt-5 text-justify">
-        <div className="px-16">
-          <h2 className="text-[#0d111c] text-[22px] font-bold leading-tight mb-2">Tại sao người ta lại tập Kiếm Đạo</h2>
+        <div className="px-4">
+          <h2 className="text-[#0d111c] text-[22px] font-bold leading-tight mb-2">{header[language]}</h2>
           <div className="divider">
             <span className="flex items-center justify-center">
               <span className="icon-[tabler--crown] size-5" />
@@ -124,12 +153,12 @@ export const WhyLearnKendo = () => {
           </div>
         </div>
         
-        <p className="px-4 text-[#0d111c]">Kiếm đạo (Kendo) có ưu điểm gì mà lại khiến nhiều người yêu thích và có mong muốn tham gia học bộ môn võ thuật này đến vậy? Không chỉ ở Nhật Bản mà Kiếm đọa (Kendo) còn lan rộng ra toàn thế giới? Không phải tự nhiên mà Kendo lại trở nên phổ biến</p>
+        <p className="px-4 text-[#0d111c]">{subHeader[language]}</p>
       </div>
      
       <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
         {reasonsWhyLearnKendo.map((reason, index) => (
-          renderSingleReason(reason.icon, reason.title, reason.description)
+          renderSingleReason(reason.icon, reason.title[language], reason.description[language])
         ))}
       </div>
     </div>

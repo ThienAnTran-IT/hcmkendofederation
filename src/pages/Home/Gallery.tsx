@@ -13,13 +13,19 @@ import image11 from '../../assets/images/homeGallery/image11.jpg'
 import image12 from '../../assets/images/homeGallery/image12.jpg'
 import image13 from '../../assets/images/homeGallery/image13.jpg'
 import '../../assets/styles/Gallery.css'
+import { useLanguage } from '../../components/LanguageContext';
 
+const header = {
+  "vi": "Thư viện ảnh",
+  "en": "Photo Gallery"
+}
 
 export const Gallery = () => {
+  const { language } = useLanguage();
 
   return (
   <div>
-    <h2 className="text-[#0d111c] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Thư viện ảnh</h2>
+    <h2 className="text-[#0d111c] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">{header[language]}</h2>
     <div className="gallery-row"> 
       <div className="gallery-column">
         <img src={image1} style={{width: '100%'}} alt='image1' />

@@ -1,6 +1,6 @@
 export interface ClubInfo {
-  name: string
-  location: string
+  name: LangLabel
+  location: LangLabel
   image: string
   url?: string
 }
@@ -26,4 +26,17 @@ export interface NewsItemDetail {
   image?: string
   attachmentLinks?: AttachmentLink[]
   additionalImages?: string[]
+}
+
+export type Language = 'vi' | 'en'
+
+export interface LangLabel {
+  vi: string
+  en: string
+}
+
+export interface TabProps {
+  name: string
+  label: LangLabel
+  path: string
 }
