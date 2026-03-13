@@ -1,0 +1,327 @@
+[
+  {
+    "objectID": "kendo_hcm_01",
+    "name": "DaiDo Kendo Club",
+    "location": {
+      "city": "HCM",
+      "district": "Bình Thạnh",
+      "address": "8 Phan Dang Luu, Ward 14",
+      "lat": 10.8016,
+      "lng": 106.6986
+    },
+    "schedule": {
+      "days": ["Mon", "Wed", "Fri"],
+      "time_slots": ["18:00-20:00"]
+    },
+    "fee": {
+      "monthly_min": 500000,
+      "monthly_max": 700000,
+      "trial_available": true
+    },
+    "level": { "beginner": true, "intermediate": true, "advanced": true },
+    "style": { "intensity": "medium", "focus": ["basics", "spirit"] },
+    "coach": { "rank": "4th Dan", "origin": "Vietnam" },
+    "tags": ["traditional", "friendly", "spacious"],
+    "description": "A well-established club in Binh Thanh focusing on Kihon and traditional Kendo spirit."
+  },
+  {
+    "objectID": "kendo_hcm_02",
+    "name": "Kazeken Kendo Club",
+    "location": {
+      "city": "HCM",
+      "district": "Quận 1",
+      "address": "1st Floor, 2 Dinh Tien Hoang, Da Kao Ward",
+      "lat": 10.7885,
+      "lng": 106.7008
+    },
+    "schedule": {
+      "days": ["Tue", "Thu", "Sun"],
+      "time_slots": ["19:00-21:00"]
+    },
+    "fee": {
+      "monthly_min": 600000,
+      "monthly_max": 800000,
+      "trial_available": true
+    },
+    "level": { "beginner": true, "intermediate": true, "advanced": true },
+    "style": { "intensity": "high", "focus": ["speed", "technique"] },
+    "coach": { "rank": "5th Dan", "origin": "Japan" },
+    "tags": ["central_location", "high_intensity", "experienced_coach"],
+    "description": "Located in the heart of District 1, Kazeken offers rigorous training for all levels."
+  },
+  {
+    "objectID": "kendo_hcm_03",
+    "name": "Saigon Kendo Club",
+    "location": {
+      "city": "HCM",
+      "district": "Quận 11",
+      "address": "215C Ly Thuong Kiet, Ward 15",
+      "lat": 10.7712,
+      "lng": 106.6582
+    },
+    "schedule": {
+      "days": ["Sat", "Sun"],
+      "time_slots": ["08:00-10:00", "15:00-17:00"]
+    },
+    "fee": {
+      "monthly_min": 450000,
+      "monthly_max": 600000,
+      "trial_available": true
+    },
+    "level": { "beginner": true, "intermediate": true, "advanced": false },
+    "style": { "intensity": "medium", "focus": ["community", "etiquette"] },
+    "coach": { "rank": "3rd Dan", "origin": "Vietnam" },
+    "tags": ["weekend_classes", "student_friendly", "community"],
+    "description": "Perfect for students and weekend warriors looking to pick up the sword."
+  },
+  {
+    "objectID": "kendo_hcm_04",
+    "name": "Shobukan Dojo",
+    "location": {
+      "city": "HCM",
+      "district": "Quận 7",
+      "address": "109 block K, Happy Valley",
+      "lat": 10.7247,
+      "lng": 106.7112
+    },
+    "schedule": {
+      "days": ["Tue", "Thu", "Sat"],
+      "time_slots": ["18:30-20:30"]
+    },
+    "fee": {
+      "monthly_min": 1000000,
+      "monthly_max": 1500000,
+      "trial_available": false
+    },
+    "level": { "beginner": true, "intermediate": true, "advanced": true },
+    "style": { "intensity": "high", "focus": ["Kenjutsu", "discipline"] },
+    "coach": { "rank": "5th Dan", "origin": "Japan" },
+    "tags": ["premium", "expat_friendly", "authentic"],
+    "description": "A high-end dojo in District 7 specializing in authentic Japanese swordsmanship."
+  },
+  {
+    "objectID": "kendo_hcm_05",
+    "name": "UEF Kendo Club",
+    "location": {
+      "city": "HCM",
+      "district": "Bình Thạnh",
+      "address": "15th Floor, 145 Dien Bien Phu",
+      "lat": 10.7963,
+      "lng": 106.7051
+    },
+    "schedule": {
+      "days": ["Mon", "Fri"],
+      "time_slots": ["17:30-19:30"]
+    },
+    "fee": {
+      "monthly_min": 300000,
+      "monthly_max": 500000,
+      "trial_available": true
+    },
+    "level": { "beginner": true, "intermediate": false, "advanced": false },
+    "style": { "intensity": "low", "focus": ["youth", "fitness"] },
+    "coach": { "rank": "2nd Dan", "origin": "Vietnam" },
+    "tags": ["university", "youth_oriented", "affordable"],
+    "description": "A vibrant club based at UEF university, great for young beginners."
+  },
+  {
+    "objectID": "kendo_hcm_06",
+    "name": "Tomokai Kendo Club",
+    "location": {
+      "city": "HCM",
+      "district": "Quận 1",
+      "address": "145 Nguyen Du Street",
+      "lat": 10.7758,
+      "lng": 106.6924
+    },
+    "schedule": {
+      "days": ["Tue", "Sat"],
+      "time_slots": ["18:30-20:30"]
+    },
+    "fee": {
+      "monthly_min": 700000,
+      "monthly_max": 900000,
+      "trial_available": true
+    },
+    "level": { "beginner": true, "intermediate": true, "advanced": true },
+    "style": { "intensity": "medium", "focus": ["technical", "social"] },
+    "coach": { "rank": "4th Dan", "origin": "Vietnam" },
+    "tags": ["city_center", "active_community", "social"],
+    "description": "Friendly atmosphere with a strong focus on technical precision and group activities."
+  },
+  {
+    "objectID": "kendo_hcm_07",
+    "name": "Nitoukan Kendo Iaido Vietnam",
+    "location": {
+      "city": "HCM",
+      "district": "Quận 10",
+      "address": "7A/15 Thanh Thai, Ward 14",
+      "lat": 10.7725,
+      "lng": 106.6644
+    },
+    "schedule": {
+      "days": ["Wed", "Sat", "Sun"],
+      "time_slots": ["19:00-21:00"]
+    },
+    "fee": {
+      "monthly_min": 600000,
+      "monthly_max": 850000,
+      "trial_available": true
+    },
+    "level": { "beginner": true, "intermediate": true, "advanced": true },
+    "style": { "intensity": "medium", "focus": ["Iaido", "dual_wielding"] },
+    "coach": { "rank": "4th Dan", "origin": "Vietnam" },
+    "tags": ["iaido", "nito_style", "culture"],
+    "description": "Unique club offering both Kendo and Iaido, with a specialty in Nito (two-sword) style."
+  },
+  {
+    "objectID": "kendo_hcm_08",
+    "name": "Kenzekan Kendo Dojo",
+    "location": {
+      "city": "HCM",
+      "district": "Gò Vấp",
+      "address": "74/26 Bui Quang La, Ward 12",
+      "lat": 10.8354,
+      "lng": 106.6457
+    },
+    "schedule": {
+      "days": ["Tue", "Thu"],
+      "time_slots": ["18:00-20:00"]
+    },
+    "fee": {
+      "monthly_min": 400000,
+      "monthly_max": 600000,
+      "trial_available": true
+    },
+    "level": { "beginner": true, "intermediate": true, "advanced": false },
+    "style": { "intensity": "medium", "focus": ["basics", "local_community"] },
+    "coach": { "rank": "3rd Dan", "origin": "Vietnam" },
+    "tags": ["local", "beginner_friendly", "evening_classes"],
+    "description": "A cozy neighborhood dojo focusing on building a strong foundation for new practitioners."
+  },
+  {
+    "objectID": "kendo_hcm_09",
+    "name": "Saigon Jukendo Kai Kendo Club",
+    "location": {
+      "city": "HCM",
+      "district": "Phú Nhuận",
+      "address": "1 Hoa Phuong Street, Ward 2",
+      "lat": 10.7961,
+      "lng": 106.6897
+    },
+    "schedule": {
+      "days": ["Mon", "Thu"],
+      "time_slots": ["19:30-21:30"]
+    },
+    "fee": {
+      "monthly_min": 550000,
+      "monthly_max": 750000,
+      "trial_available": true
+    },
+    "level": { "beginner": true, "intermediate": true, "advanced": true },
+    "style": { "intensity": "high", "focus": ["Jukendo", "combat"] },
+    "coach": { "rank": "4th Dan", "origin": "Vietnam" },
+    "tags": ["jukendo", "niche", "physical_fitness"],
+    "description": "The go-to place in Saigon for Jukendo and specialized Kendo training."
+  },
+  {
+    "objectID": "kendo_bd_10",
+    "name": "Binh Duong Kendo Club",
+    "location": {
+      "city": "Bình Dương",
+      "district": "Thủ Dầu Một",
+      "address": "567 Binh Duong Boulevard",
+      "lat": 10.9805,
+      "lng": 106.6521
+    },
+    "schedule": {
+      "days": ["Tue", "Sat"],
+      "time_slots": ["17:30-19:30"]
+    },
+    "fee": {
+      "monthly_min": 400000,
+      "monthly_max": 550000,
+      "trial_available": true
+    },
+    "level": { "beginner": true, "intermediate": true, "advanced": false },
+    "style": { "intensity": "medium", "focus": ["discipline", "sport"] },
+    "coach": { "rank": "3rd Dan", "origin": "Vietnam" },
+    "tags": ["outside_hcm", "growing_community", "discipline"],
+    "description": "The main hub for Kendo practitioners in Binh Duong province."
+  },
+  {
+    "objectID": "kendo_hcm_11",
+    "name": "SAGAN Kendo Team",
+    "location": {
+      "city": "HCM",
+      "district": "Quận 10",
+      "address": "TT20 Tam Dao, Ward 15",
+      "lat": 10.7761,
+      "lng": 106.6612
+    },
+    "schedule": {
+      "days": ["Fri", "Sun"],
+      "time_slots": ["18:30-20:30"]
+    },
+    "fee": {
+      "monthly_min": 500000,
+      "monthly_max": 700000,
+      "trial_available": true
+    },
+    "level": { "beginner": true, "intermediate": true, "advanced": true },
+    "style": { "intensity": "high", "focus": ["competition", "teamwork"] },
+    "coach": { "rank": "4th Dan", "origin": "Vietnam" },
+    "tags": ["competitive", "team_spirit", "hard_training"],
+    "description": "A competitive team focusing on tournament preparation and high-intensity Keiko."
+  },
+  {
+    "objectID": "kendo_hn_12",
+    "name": "Hanoi Kendo Association",
+    "location": {
+      "city": "Hà Nội",
+      "district": "Hoàn Kiếm",
+      "address": "Multiple Locations (Contact for details)",
+      "lat": 21.0285,
+      "lng": 105.8542
+    },
+    "schedule": {
+      "days": ["Daily"],
+      "time_slots": ["06:00-08:00", "18:00-21:00"]
+    },
+    "fee": {
+      "monthly_min": 400000,
+      "monthly_max": 1000000,
+      "trial_available": true
+    },
+    "level": { "beginner": true, "intermediate": true, "advanced": true },
+    "style": { "intensity": "various", "focus": ["networking", "standards"] },
+    "coach": { "rank": "Various", "origin": "Mixed" },
+    "tags": ["association", "hanoi", "wide_network"],
+    "description": "The official umbrella organization for Kendo in Hanoi with numerous affiliated dojos."
+  },
+  {
+    "objectID": "kendo_hcm_13",
+    "name": "UTE Kendo Club",
+    "location": {
+      "city": "HCM",
+      "district": "Thủ Đức",
+      "address": "1 Vo Van Ngan, Linh Chieu Ward",
+      "lat": 10.8507,
+      "lng": 106.7719
+    },
+    "schedule": {
+      "days": ["Mon", "Wed"],
+      "time_slots": ["17:00-19:00"]
+    },
+    "fee": {
+      "monthly_min": 250000,
+      "monthly_max": 400000,
+      "trial_available": true
+    },
+    "level": { "beginner": true, "intermediate": false, "advanced": false },
+    "style": { "intensity": "medium", "focus": ["student_life", "basics"] },
+    "coach": { "rank": "2nd Dan", "origin": "Vietnam" },
+    "tags": ["student_led", "thu_duc", "affordable"],
+    "description": "A student-run club at UTE University, perfect for beginners in the Thu Duc area."
+  }
+]
