@@ -2,8 +2,15 @@
 
 # dependencies
 /node_modules
+**/node_modules
 /.pnp
 .pnp.js
+
+# server sessions
+/server/sessions
+
+# server .env
+/server/.env
 
 # testing
 /coverage
