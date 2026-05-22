@@ -38,7 +38,7 @@ export const NavBar: React.FC<{selectedTab: TabProps, className?: string, logo?:
                   className={`
                     flex items-center px-4 text-base font-medium leading-normal transition-colors duration-200
                     hover:bg-white/10
-                    ${currentTab.name === tab.name ? 'selected-tab' : ''}
+                    ${currentTab.name === tab.name ? 'bg-white/10' : ''}
                   `}
                   href={tab.path}
                   onClick={() => setCurrentTab(tab)}
@@ -89,7 +89,7 @@ export const NavBar: React.FC<{selectedTab: TabProps, className?: string, logo?:
                   className={`
                     block px-6 py-4 text-base font-medium leading-normal transition-colors duration-200
                     hover:bg-white/10 border-b border-gray-700 last:border-b-0
-                    ${currentTab.name === tab.name ? 'selected-tab-mobile' : ''}
+                    ${currentTab.name === tab.name ? 'bg-white/10' : ''}
                   `}
                   href={tab.path}
                   onClick={() => {
