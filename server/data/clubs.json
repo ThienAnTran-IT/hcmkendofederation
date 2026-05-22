@@ -1,0 +1,93 @@
+[
+  {
+    "id": "club-1",
+    "name": { "vi": "Câu lạc bộ Kiếm đạo Đại Đạo (DaiDo Kendo Club)", "en": "DaiDo Kendo Club" },
+    "location": { "vi": "Trung Tâm TDTT Quận Bình Thạnh, số 8 Phan Đăng Lưu phường 14 quận Bình Thạnh.", "en": "Binh Thanh Sports Center, 8 Phan Dang Luu, Ward 14, Binh Thanh District." },
+    "image": "/uploads/clubs/DaidoClubLogo.svg",
+    "url": "https://www.facebook.com/people/%C4%90%E1%BA%A1i-%C4%90%E1%BA%A1o-Ki%E1%BA%BFm-%C4%90%E1%BA%A1o-Qu%C3%A1n-Daido-Kendo-Club/100040303045704/"
+  },
+  {
+    "id": "club-2",
+    "name": { "vi": "Câu lạc bộ Kiếm đạo Phong Kiếm (Kazeken Kendo Club)", "en": "Kazeken Kendo Club" },
+    "location": { "vi": "Lầu 1, Tòa nhà Trung tâm điều hành, Số 02, Đinh Tiên Hoàng, Phường ĐaKao, Quận 1, Tp Hồ Chí Minh", "en": "1st Floor, Operations Center, 2 Dinh Tien Hoang, Da Kao Ward, District 1, Ho Chi Minh City" },
+    "image": "/uploads/clubs/KazekenClubLogo.svg",
+    "url": "https://www.facebook.com/kaze.ken.1"
+  },
+  {
+    "id": "club-3",
+    "name": { "vi": "Câu lạc bộ Kiếm đạo Sài Gòn (Saigon Kendo Club)", "en": "Saigon Kendo Club" },
+    "location": { "vi": "Số 215C Lý Thường Kiệt, Phường 15, Quận 11, Tp. Hồ Chí Minh ( Trung tâm dịch vụ thể dục thể thao)", "en": "215C Ly Thuong Kiet, Ward 15, District 11, Ho Chi Minh City (Sports Service Center)" },
+    "image": "/uploads/clubs/SaigonKendoClubLogo.svg",
+    "url": "https://www.facebook.com/saigonkendoclubvn"
+  },
+  {
+    "id": "club-4",
+    "name": { "vi": "Võ Đường Shobukan (Shobukan Dojo)", "en": "Shobukan Dojo" },
+    "location": { "vi": "(1) 109 block K, Happy Valley, Phường Tân Phong, Quận 7, Tp Hồ Chí Minh.\n(2) : Dancenter, 53 Nguyễn Đăng Giai, Thảo Điền, Quận 2, Tp Hồ Chí Minh.", "en": "(1) 109 block K, Happy Valley, Tan Phong Ward, District 7, Ho Chi Minh City.\n(2): Dancenter, 53 Nguyen Dang Giai, Thao Dien, District 2, Ho Chi Minh City." },
+    "image": "/uploads/clubs/ShokubanClubImage.svg",
+    "url": "https://katorivietnam.org/vi/vo-duong-kenjutsu-shobukan-lich-tap-vo-duong/"
+  },
+  {
+    "id": "club-5",
+    "name": { "vi": "Câu lạc bộ Kiếm đạo trường Đại học Kinh tế Tài chính (UEF Kendo Club)", "en": "UEF Kendo Club" },
+    "location": { "vi": "Tầng 15 số 145 Điện Biên Phủ, Phường 15, Quận Bình Thạnh Thành phố Hồ Chí Minh. (Đại Học Kinh Tế Tài Chính)", "en": "15th Floor, 145 Dien Bien Phu, Ward 15, Binh Thanh District, Ho Chi Minh City (University of Economics and Finance)" },
+    "image": "/uploads/clubs/UEFClubLogo.svg",
+    "url": "https://www.facebook.com/uefkendoclub.hcm/"
+  },
+  {
+    "id": "club-6",
+    "name": { "vi": "Câu lạc bộ Kiếm đạo Tomokai (Tomokai Kendo Club)", "en": "Tomokai Kendo Club" },
+    "location": { "vi": "145 Đường Nguyễn Du, Quận 1, Hồ Chí Minh, Việt Nam", "en": "145 Nguyen Du Street, District 1, Ho Chi Minh City, Vietnam" },
+    "image": "/uploads/clubs/TomokaiLogo.svg",
+    "url": "https://tomokai.com.vn/"
+  },
+  {
+    "id": "club-7",
+    "name": { "vi": "Câu lạc bộ Kiếm đạo Nitoukan (Nitoukan Kendo Iaido Vietnam)", "en": "Nitoukan Kendo Iaido Vietnam" },
+    "location": { "vi": "Tầng 1 nhà Văn hoá 7A/15 Thành Thái p14 Quận 10, TP Hồ Chí Minh", "en": "1st Floor, Cultural House 7A/15 Thanh Thai, Ward 14, District 10, Ho Chi Minh City" },
+    "image": "/uploads/clubs/NitoukanClubLogo.svg",
+    "url": "https://www.facebook.com/Nitoukan.Iaido.Vietnam/"
+  },
+  {
+    "id": "club-8",
+    "name": { "vi": "Câu lạc bộ Kiếm đạo Kiếm Thiền quán (Kenzekan kendo dojo)", "en": "Kenzekan Kendo Dojo" },
+    "location": { "vi": "74/26 Bùi Quang Là - p12 - quận Gò vấp, TP Hồ Chí Minh", "en": "74/26 Bui Quang La - Ward 12 - Go Vap District, Ho Chi Minh City" },
+    "image": "/uploads/clubs/KenzekanClubLogo.svg",
+    "url": "https://www.facebook.com/kenzenkan/"
+  },
+  {
+    "id": "club-9",
+    "name": { "vi": "Câu lạc bộ súng Kiếm đạo Sài Gòn Jukendo Kai (Saigon Jukendo Kai Kendo Club)", "en": "Saigon Jukendo Kai Kendo Club" },
+    "location": { "vi": "Rach Mieu Swimming Pool, 1 Đ. Hoa Phượng, Phường 2, Phú Nhuận, Hồ Chí Minh", "en": "Rach Mieu Swimming Pool, 1 Hoa Phuong Street, Ward 2, Phu Nhuan District, Ho Chi Minh City" },
+    "image": "/uploads/clubs/SaigonJukenjaiLogo.jpg",
+    "url": "https://www.facebook.com/saigonjukendokai"
+  },
+  {
+    "id": "club-10",
+    "name": { "vi": "Câu lạc bộ Kiếm đạo Bình Dương (Binh DuongKendo Club)", "en": "Binh Duong Kendo Club" },
+    "location": { "vi": "567 Đại lộ Bình Dương, phường Hiệp Thành, thành phố Thủ Dầu Một, tỉnh Bình Dương", "en": "567 Binh Duong Boulevard, Hiep Thanh Ward, Thu Dau Mot City, Binh Duong Province" },
+    "image": "/uploads/clubs/KendoBinhDuongLogo.svg",
+    "url": "https://www.facebook.com/KendoBinhDuong"
+  },
+  {
+    "id": "club-11",
+    "name": { "vi": "Câu lạc bộ Kiếm đạo SAGAN (SAGAN Kendo Team)", "en": "SAGAN Kendo Team" },
+    "location": { "vi": "TT20 Tam Đảo, Phường 15, Quận 10, TP Hồ Chí Minh", "en": "TT20 Tam Dao, Ward 15, District 10, Ho Chi Minh City" },
+    "image": "/uploads/clubs/SaganLogo.svg",
+    "url": "https://www.facebook.com/sagankendoteam/"
+  },
+  {
+    "id": "club-12",
+    "name": { "vi": "Hiệp hội Kendo Hà Nội (Hanoi Kendo Association)", "en": "Hanoi Kendo Association" },
+    "location": { "vi": "Hiệp hội có nhiều địa điểm luyện tập tại Hà Nội, xin truy cập trang của Hiệp hội để biết thêm chi tiết.", "en": "The association has many practice locations in Hanoi, please visit the association's page for more details." },
+    "image": "/uploads/clubs/HanoiKendoLogo.svg",
+    "url": "https://www.facebook.com/hanoi.kendo.association"
+  },
+  {
+    "id": "club-13",
+    "name": { "vi": "Câu lạc bộ Kiếm đạo Trường ĐH Sư phạm Kỹ thuật (UTE Kendo Club) ", "en": "UTE Kendo Club" },
+    "location": { "vi": "1 Võ Văn Ngân Phường Linh Chiểu, TP Ho Chi Minh City", "en": "1 Vo Van Ngan, Linh Chieu Ward, Ho Chi Minh City" },
+    "image": "/uploads/clubs/UTEKendoClubLogo.jpg",
+    "url": "https://www.facebook.com/people/CLB-Ki%E1%BA%BFm-%C4%91%E1%BA%A1o-Tr%C6%B0%E1%BB%9Dng-%C4%90H-SPKT/61560455006741/"
+  }
+]
