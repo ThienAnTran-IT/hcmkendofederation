@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeRaw from 'rehype-raw'
+import { markdownComponents, preprocessMarkdown } from '../../components/markdownConfig'
 import { NavBar } from '../../components/Navbar'
 import { Tabs } from '../../constants/constants'
 import { NewsList } from './NewsList'
@@ -57,9 +58,13 @@ const NewsDetailView: React.FC<{ uid: string }> = ({ uid }) => {
           style={{ backgroundImage: `url(${news.image})` }}
         />
       )}
-      <p className="whitespace-pre-wrap px-4 pb-3 pt-5 mt-10">
-        <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
-          {news.content}
+      <p className="px-4 pb-3 pt-5">
+        <ReactMarkdown
+          remarkPlugins={[remarkGfm]}
+          rehypePlugins={[rehypeRaw]}
+          components={markdownComponents}
+        >
+          {preprocessMarkdown(news.content)}
         </ReactMarkdown>
       </p>
       {news.additionalImages && news.additionalImages.length > 0 && (

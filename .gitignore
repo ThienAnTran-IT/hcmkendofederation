@@ -12,6 +12,9 @@
 # server .env
 /server/.env
 
+# server uploads (user-uploaded files, not tracked in git)
+/server/uploads/
+
 # testing
 /coverage
 

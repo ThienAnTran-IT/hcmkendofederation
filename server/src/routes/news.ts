@@ -6,6 +6,15 @@ import { newsUpload } from '../middleware/upload'
 
 const router = Router()
 
+const uploadFields = newsUpload.fields([
+  { name: 'image', maxCount: 1 },
+  { name: 'additionalImages', maxCount: 2 },
+])
+
+function getUploadedUrls(files: Express.Multer.File[]): string[] {
+  return files.map((f) => `/uploads/news/${f.filename}`)
+}
+
 router.get('/', (req, res) => {
   const all = readDb<any[]>('news-summaries.json')
   if (req.isAuthenticated()) {
@@ -21,12 +30,21 @@ router.get('/:uid', (req, res) => {
   res.json(item)
 })
 
-router.post('/', requireAuth, newsUpload.single('image') as any, (req, res) => {
+router.post('/', requireAuth, uploadFields as any, (req, res) => {
+  const files = (req.files || {}) as { [field: string]: Express.Multer.File[] }
+
   const summaries = readDb<any[]>('news-summaries.json')
   const details = readDb<any[]>('news-details.json')
 
   const uid = uuidv4()
-  const imageUrl = req.file ? `/uploads/news/${req.file.filename}` : req.body.imageUrl || ''
+  const imageUrl = files['image']?.[0]
+    ? `/uploads/news/${files['image'][0].filename}`
+    : req.body.imageUrl || ''
+
+  const additionalImages = [
+    ...(req.body.existingAdditionalImages ? JSON.parse(req.body.existingAdditionalImages) : []),
+    ...getUploadedUrls(files['additionalImages'] || []),
+  ]
 
   const summary = {
     uid,
@@ -43,6 +61,7 @@ router.post('/', requireAuth, newsUpload.single('image') as any, (req, res) => {
     content: req.body.content || '',
     date: req.body.date || new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }),
     image: imageUrl,
+    additionalImages,
     attachmentLinks: req.body.attachmentLinks ? JSON.parse(req.body.attachmentLinks) : [],
   }
 
@@ -54,7 +73,9 @@ router.post('/', requireAuth, newsUpload.single('image') as any, (req, res) => {
   res.status(201).json({ summary, detail })
 })
 
-router.put('/:uid', requireAuth, newsUpload.single('image') as any, (req, res) => {
+router.put('/:uid', requireAuth, uploadFields as any, (req, res) => {
+  const files = (req.files || {}) as { [field: string]: Express.Multer.File[] }
+
   const summaries = readDb<any[]>('news-summaries.json')
   const details = readDb<any[]>('news-details.json')
 
@@ -65,9 +86,14 @@ router.put('/:uid', requireAuth, newsUpload.single('image') as any, (req, res) =
     return res.status(404).json({ error: 'Not found' })
   }
 
-  const imageUrl = req.file
-    ? `/uploads/news/${req.file.filename}`
+  const imageUrl = files['image']?.[0]
+    ? `/uploads/news/${files['image'][0].filename}`
     : req.body.imageUrl || summaries[summaryIdx].image
+
+  const additionalImages = [
+    ...(req.body.existingAdditionalImages ? JSON.parse(req.body.existingAdditionalImages) : []),
+    ...getUploadedUrls(files['additionalImages'] || []),
+  ]
 
   summaries[summaryIdx] = {
     ...summaries[summaryIdx],
@@ -82,6 +108,7 @@ router.put('/:uid', requireAuth, newsUpload.single('image') as any, (req, res) =
     content: req.body.content !== undefined ? req.body.content : details[detailIdx].content,
     date: req.body.date || details[detailIdx].date,
     image: imageUrl,
+    additionalImages,
     attachmentLinks: req.body.attachmentLinks ? JSON.parse(req.body.attachmentLinks) : details[detailIdx].attachmentLinks,
   }
 
